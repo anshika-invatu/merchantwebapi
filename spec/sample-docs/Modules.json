@@ -1,0 +1,186 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "modules",
+	 "partitionKey": "Same as the _id",
+	 "moduleName": {
+		 "sv-SE": {
+			 "text": "Name of the module in some language"
+		},
+		 "en-US": {
+			 "text": "Name of the module in some language"
+		}
+	},
+	 "moduleDescription": {
+		 "sv-SE": {
+			 "text": "Some description in some language"
+		},
+		 "en-US": {
+			 "text": "Some description in some language"
+		}
+	},
+	 "moduleCode": "bankIDAgeCheck",
+	 "moduleVersion": "1.0.0",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "issuedByMerchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "isPublic": true,
+	 "isUIModule": true,
+	 "iconImageURL": "https://media.vourity.com/blueburger1.png",
+	 "mainImageURL": "https://media.vourity.com/blueburger2.png",
+	 "inputs": {
+		 "in1": {
+			 "dataType": "string,decimal,boolean",
+			 "code": "payOk,payNok,cancel,error"
+		},
+		 "in2": {
+			 "dataType": "string,decimal,boolean",
+			 "code": "payOk,payNok,cancel,error"
+		}
+	},
+	 "outputs": {
+		 "out1": {
+			 "dataType": "boolean",
+			 "resultCode": "payOk"
+		},
+		 "out2": {
+			 "dataType": "boolean",
+			 "resultCode": "payNok"
+		},
+		 "out3": {
+			 "dataType": "boolean",
+			 "resultCode": "cancel"
+		}
+	},
+	 "settings": {
+		 "timerSeconds": {
+			 "name": "Timer value in seconds",
+			 "type": "decimal",
+			 "defaultValue": 5,
+			 "allowedValues": [
+				1,
+				2,
+				3,
+				4,
+				5
+			],
+			 "metadata": {
+				 "description": "setting-description"
+			}
+		},
+		 "numberOfPulses": {
+			 "name": "Number of relay pulses",
+			 "type": "int",
+			 "defaultValue": 1,
+			 "allowedValues": [
+				1,
+				2,
+				3
+			],
+			 "metadata": {
+				 "description": "setting-description"
+			}
+		}
+	},
+	 "texts": {
+		 "mainLabel": {
+			 "textColor": "#86AD33",
+			 "textSize": 20,
+			 "textStyle": "bold",
+			 "backgroundColor": "#86AD33",
+			 "sv-SE": {
+				 "text": "html encode ??? This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		},
+		 "text1": {
+			 "textColor": "#86AD33",
+			 "textSize": 20,
+			 "textStyle": "normal",
+			 "backgroundColor": "#86AD33",
+			 "sv-SE": {
+				 "text": "This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		},
+		 "text2": {
+			 "textColor": "#86AD33",
+			 "textSize": 20,
+			 "textStyle": "italic",
+			 "sv-SE": {
+				 "text": "This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		}
+	},
+	 "actions": [
+		{
+			 "actionCode": "openDoor2",
+			 "actionName": "Open door number 2",
+			 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "pointOfServiceName": "Door 2",
+			 "actionParameters": {
+				 "timerSeconds": {
+					 "name": "Timer value in seconds",
+					 "type": "decimal",
+					 "defaultValue": 5,
+					 "allowedValues": [
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					 "metadata": {
+						 "description": "setting-description"
+					}
+				},
+				 "numberOfPulses": {
+					 "name": "Number of relay pulses",
+					 "type": "int",
+					 "defaultValue": 1,
+					 "allowedValues": [
+						1,
+						2,
+						3
+					],
+					 "metadata": {
+						 "description": "setting-description"
+					}
+				}
+			}
+		}
+	],
+	 "rating": 4.6,
+	 "totalRatingValue": 516,
+	 "numberofRatings": 112,
+	 "ratingDetails": {
+		 "numberofRatings1": 64,
+		 "numberofRatings2": 12,
+		 "numberofRatings3": 78,
+		 "numberofRatings4": 37,
+		 "numberofRatings5": 562
+	},
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

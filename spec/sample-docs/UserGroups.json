@@ -1,0 +1,11 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "userGroups",
+	"partitionKey": "Same as the _id",
+	"userGroupName": "Name of the group",
+	"userGroupDescription": "Some description",
+	"userGroupIconURL": "https://media.vourity.com/product.svg",
+	"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"createdDate": "2024-02-05T14:05:36Z",
+	"updatedDate": "2024-02-05T15:18:12Z"
+}

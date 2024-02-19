@@ -1,0 +1,2823 @@
+{
+	"_id": "260502e7-feb1-416f-8b49-5ade73f9ab1d",
+	"docType": "moduleMainTemplates",
+	"partitionKey": "260502e7-feb1-416f-8b49-5ade73f9ab1d",
+	"moduleTemplateName": {
+		"sv-SE": {
+			"text": "Vourity developer template 2"
+		},
+		"en-US": {
+			"text": "Vourity developer template 2"
+		}
+	},
+	"moduleTemplateDescription": {
+		"sv-SE": {
+			"text": "Vourity developer template 2"
+		},
+		"en-US": {
+			"text": "Vourity developer template 2"
+		}
+	},
+	"issuedByMerchantID": "9e32d3b1-41e5-40ff-bad3-c9ee9f7cdf20",
+	"moduleTemplateVersion": "1.0.0",
+	"masterModuleTemplateID": "",
+	"isPublic": true,
+	"logoImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+	"adminRights": [
+		{
+			"merchantID": "9e32d3b1-41e5-40ff-bad3-c9ee9f7cdf20",
+			"merchantName": "Vourity AB",
+			"roles": "admin"
+		}
+	],
+	"audioVolume": 30,
+	"idlePage": {
+		"objectType": "text",
+		"mediaStreamScheduleURL": "",
+		"mediaURL": "https://vourityblob1.blob.core.windows.net/ads/icecream2.jpg",
+		"backgroundColor": "#000000",
+		"isEnabled": true,
+		"texts": {
+			"text1": {
+				"textColor": "#990099",
+				"textSize": 40,
+				"textStyle": "normal",
+				"backgroundColor": "#000000",
+				"sv-SE": {
+					"text": "Köp en glass i sommar"
+				},
+				"en-US": {
+					"text": "Buy an ice cream when it is warm"
+				}
+			},
+			"text2": {
+				"textColor": "#990099",
+				"textSize": 20,
+				"textStyle": "normal",
+				"backgroundColor": "#C0C0C0",
+				"sv-SE": {
+					"text": "Knapptext"
+				},
+				"en-US": {
+					"text": "Button text"
+				}
+			}
+		}
+	},
+	"defaultPage": {
+		"moduleCode": "menuPage",
+		"moduleInstance": 1
+	},
+	"menuPage": {
+		"backgroundColor": "#000000",
+		"backToIdlePageTimer": 120,
+		"headerBackgroundColor": "#393E46",
+		"headerIconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vourity_white_500px.svg",
+		"pageObjects": [
+			{
+				"position": 1,
+				"objectType": "module",
+				"moduleCode": "redeemVoucher",
+				"moduleInstance": 1,
+				"moduleID": "3d813615-01e9-4403-8132-e50dec5b608d",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_qrcode_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Värdebevis"
+					},
+					"en-US": {
+						"text": "Voucher"
+					}
+				},
+				"priceLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "179 SEK per person"
+					},
+					"en-US": {
+						"text": "179 SEK per person"
+					}
+				}
+			},
+			{
+				"position": 2,
+				"objectType": "module",
+				"moduleCode": "payWithSwish",
+				"moduleInstance": 1,
+				"moduleID": "831fd18f-ab67-4e94-90c5-e3b4aa9a1d04",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_swish_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Swish"
+					},
+					"en-US": {
+						"text": "Swish"
+					}
+				}
+			},
+			{
+				"position": 3,
+				"objectType": "module",
+				"moduleCode": "showOK",
+				"moduleInstance": 2,
+				"moduleID": "21344e61-cc83-48b9-9778-4186aecd9623",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_creditcard_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Kreditkort"
+					},
+					"en-US": {
+						"text": "Credit card"
+					}
+				}
+			},
+			{
+				"position": 4,
+				"objectType": "module",
+				"moduleCode": "accessPinCode",
+				"moduleInstance": 1,
+				"moduleID": "565a1727-1cc0-403a-a0b3-b8655b327f94",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_pincode_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Pinkod"
+					},
+					"en-US": {
+						"text": "Pin code"
+					}
+				}
+			},
+			{
+				"position": 5,
+				"objectType": "module",
+				"moduleCode": "accessKeyTag",
+				"moduleInstance": 1,
+				"moduleID": "e3eeabda-0c54-4e2d-8f80-f07973aaeb61",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_rfid_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Nyckeltagg"
+					},
+					"en-US": {
+						"text": "Key tag"
+					}
+				}
+			},
+			{
+				"position": 6,
+				"objectType": "module",
+				"moduleCode": "selectOneProduct",
+				"moduleInstance": 2,
+				"moduleID": "ec89ed0b-4b9f-4b30-9103-f020993ffa1a",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_cart_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Minibutik"
+					},
+					"en-US": {
+						"text": "Micro shop"
+					}
+				}
+			},
+			{
+				"position": 7,
+				"objectType": "module",
+				"moduleCode": "rating",
+				"moduleInstance": 1,
+				"moduleID": "6f4588f5-40fb-4e59-8d8b-0731139b322d",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_delivery_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Leverans"
+					},
+					"en-US": {
+						"text": "Delivery"
+					}
+				}
+			},
+			{
+				"position": 8,
+				"objectType": "module",
+				"moduleCode": "selectOneProduct",
+				"moduleInstance": 1,
+				"moduleID": "a3f606c7-f1be-4903-8e57-0e3e9178cb29",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_carwash.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Personbilstvätt"
+					},
+					"en-US": {
+						"text": "Car wash"
+					}
+				}
+			},
+			{
+				"position": 9,
+				"objectType": "module",
+				"moduleCode": "propertyCommand",
+				"moduleInstance": 1,
+				"moduleID": "b1f5a5d6-9ac9-493d-b1fd-27c44696fa4f",
+				"moduleVersion": "1.0.0",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_bankid_white.svg",
+				"backgroundColor": "#393E46",
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Bank ID"
+					},
+					"en-US": {
+						"text": "Bank ID"
+					}
+				}
+			}
+		]
+	},
+	"menuLanguages": {
+		"defaultLanguage": "sv-SE",
+		"sv-SE": {
+			"isEnabled": true
+		},
+		"en-US": {
+			"isEnabled": true
+		}
+	},
+	"externalDisplay": {
+		"objectType": "image",
+		"mediaStreamScheduleURL": "",
+		"mediaURL": "https://vourityblob1.blob.core.windows.net/icons/icon_qrcode.svg",
+		"backgroundColor": "#1220E4",
+		"texts": {
+			"text1": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "normal",
+				"backgroundColor": "#12E49E",
+				"sv-SE": {
+					"text": "Köp en biljett genom att skanna QR-koden"
+				},
+				"en-US": {
+					"text": "Buy a ticketm scan the QR-code"
+				}
+			}
+		}
+	},
+	"modulesFlow": [
+		{
+			"moduleCode": "redeemVoucher",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Lös in värdebevis"
+				},
+				"en-US": {
+					"text": "Redeem Voucher"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Kunden kan skanna en QR-kod för att lösa in ett värdebevis"
+				},
+				"en-US": {
+					"text": "The customer scans a QR-code to redeem a Voucher"
+				}
+			},
+			"moduleID": "3d813615-01e9-4403-8132-e50dec5b608d",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 30,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_qrcode.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_qrcode_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "redemptionOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "propertyCommand",
+							"moduleInstance": 2,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "redemptionNok",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out4",
+					"dataType": "boolean",
+					"resultCode": "redemptionOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showOK",
+							"moduleInstance": 2,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"validation": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 30,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Skanna QR-koden på ditt värdebevis"
+					},
+					"en-US": {
+						"text": "Please scan the QR-code on your Voucher"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "payWithSwish",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Betala med Swish"
+				},
+				"en-US": {
+					"text": "Pay with Swish"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Betala med Swish"
+				},
+				"en-US": {
+					"text": "Pay with Swish mobile payment"
+				}
+			},
+			"moduleID": "831fd18f-ab67-4e94-90c5-e3b4aa9a1d04",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 45,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_swish_circle.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_swish_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "payOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "propertyCommand",
+							"moduleInstance": 2,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "payNotOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out4",
+					"dataType": "boolean",
+					"resultCode": "payOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"productSource": "useCart"
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "Skanna QR-koden med Swish-appen"
+					},
+					"en-US": {
+						"text": "Scan the QR-code with the Swish app"
+					}
+				},
+				"priceLabelText": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Pris: "
+					},
+					"en-US": {
+						"text": "Price: "
+					}
+				},
+				"text1": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Tack för att du handlar här"
+					},
+					"en-US": {
+						"text": "Thank you for shopping here"
+					}
+				},
+				"text2": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "italic",
+					"sv-SE": {
+						"text": "Godisbutiken"
+					},
+					"en-US": {
+						"text": "Candy store"
+					}
+				},
+				"text3": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "italic",
+					"sv-SE": {
+						"text": "Lämna gärna flaskan till återvinning när du är klar"
+					},
+					"en-US": {
+						"text": "Please recyle the bottle"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "doAction",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Utför kommando"
+				},
+				"en-US": {
+					"text": "Do action"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Modulen utför ett kommando"
+				},
+				"en-US": {
+					"text": "The module will do a defined action"
+				}
+			},
+			"moduleID": "c580a8ed-2101-4c88-bed8-f42d1a5efd3c",
+			"moduleVersion": "1.1.2",
+			"isUIModule": false,
+			"backToMenuPageTimer": 1,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_cloud_action_60px.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_qrcode_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "notOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"actions": [
+					{
+						"actionCode": "openDoor",
+						"actionName": "Open door",
+						"pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+						"pointOfServiceName": "Door 2",
+						"actionParameters": {
+						}
+					}
+				]
+			}
+		},
+		{
+			"moduleCode": "payWithCreditCard",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Betala med kreditkort"
+				},
+				"en-US": {
+					"text": "Pay with Credit card"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Betala med kreditkort"
+				},
+				"en-US": {
+					"text": "Pay with Credit card"
+				}
+			},
+			"moduleID": "21344e61-cc83-48b9-9778-4186aecd9623",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 30,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_creditcard.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_creditcard_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "payOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "doAction",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "payNotOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out4",
+					"dataType": "boolean",
+					"resultCode": "payOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"productSource": "useCart"
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Betala med kreditkort"
+					},
+					"en-US": {
+						"text": "Pay with credit card"
+					}
+				},
+				"text1": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Blipp och chip"
+					},
+					"en-US": {
+						"text": "Tap and Go"
+					}
+				},
+				"text2": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "italic",
+					"sv-SE": {
+						"text": "This is the text2 in SE language"
+					},
+					"en-US": {
+						"text": "This is the text2 in EN language"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "showNotOK",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Betalningen kunde inte genomföras"
+				},
+				"en-US": {
+					"text": "The payment was declined"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Betalningen kunde inte genomföras"
+				},
+				"en-US": {
+					"text": "The payment was declined"
+				}
+			},
+			"moduleID": "7554cbc4-0c01-46d4-831e-69aa2a0a53cc",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 10,
+			"backgroundColor": "#FF0000",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_cancel.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_notok_white.svg",
+			"defaultProduct": {
+			},
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#FF0000",
+					"sv-SE": {
+						"text": "Betalningen kunde inte genomföras"
+					},
+					"en-US": {
+						"text": "The payment was declined"
+					}
+				},
+				"text1": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#FF0000",
+					"sv-SE": {
+						"text": "Vänligen försök igen"
+					},
+					"en-US": {
+						"text": "Please try again"
+					}
+				},
+				"text2": {
+					"textColor": "#7FFF00",
+					"textSize": 30,
+					"textStyle": "italic",
+					"backgroundColor": "#FF0000",
+					"sv-SE": {
+						"text": "This is the text2 in some language"
+					},
+					"en-US": {
+						"text": "This is the text2 in some language"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "showOK",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Betalning OK"
+				},
+				"en-US": {
+					"text": "Payment OK"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Betalning OK"
+				},
+				"en-US": {
+					"text": "Payment OK"
+				}
+			},
+			"moduleID": "cc445326-bdfd-47e4-ad6d-396dc114d39b",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 10,
+			"backgroundColor": "#00CC00",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_ok_green.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_ok.svg",
+			"defaultProduct": {
+			},
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Betalning OK"
+					},
+					"en-US": {
+						"text": "Payment OK"
+					}
+				},
+				"text1": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Tack för att du handlar hos oss"
+					},
+					"en-US": {
+						"text": "Thank you for shopping with us"
+					}
+				},
+				"text2": {
+					"textColor": "#7FFF00",
+					"textSize": 30,
+					"textStyle": "italic",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Vi har även färska jordubbar!"
+					},
+					"en-US": {
+						"text": "Don't miss our summer sale on strawberries!"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "showOK",
+			"moduleInstance": 2,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Inlösen ok"
+				},
+				"en-US": {
+					"text": "Redemption OK"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Betalning OK"
+				},
+				"en-US": {
+					"text": "Payment OK"
+				}
+			},
+			"moduleID": "cc445326-bdfd-47e4-ad6d-396dc114d39b",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 10,
+			"backgroundColor": "#00CC00",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_ok_green.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_ok.svg",
+			"defaultProduct": {
+			},
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Värdebevis inlöst"
+					},
+					"en-US": {
+						"text": "Voucher redeemed"
+					}
+				},
+				"text1": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Tack för att du handlar hos oss"
+					},
+					"en-US": {
+						"text": "Thank you for shopping with us"
+					}
+				},
+				"text2": {
+					"textColor": "#7FFF00",
+					"textSize": 30,
+					"textStyle": "italic",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Köp våra presentkort!"
+					},
+					"en-US": {
+						"text": "Buy our gift cards!"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "showOK",
+			"moduleInstance": 3,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Test page"
+				},
+				"en-US": {
+					"text": "Test page"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Test page"
+				},
+				"en-US": {
+					"text": "Test page"
+				}
+			},
+			"moduleID": "cc445326-bdfd-47e4-ad6d-396dc114d39b",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 10,
+			"backgroundColor": "#FFFF00",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_sunbed.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_sunbed.svg",
+			"defaultProduct": {
+			},
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "selectOneProduct",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FF00FF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Test page"
+					},
+					"en-US": {
+						"text": "Test page"
+					}
+				},
+				"text1": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Tack för att du handlar hos oss"
+					},
+					"en-US": {
+						"text": "Thank you for shopping with us"
+					}
+				},
+				"text2": {
+					"textColor": "#7FFF00",
+					"textSize": 30,
+					"textStyle": "italic",
+					"backgroundColor": "#00CC00",
+					"sv-SE": {
+						"text": "Köp våra presentkort!"
+					},
+					"en-US": {
+						"text": "Buy our gift cards!"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "shopProducts",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Välj produkter"
+				},
+				"en-US": {
+					"text": "Select products"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Välj produkter"
+				},
+				"en-US": {
+					"text": "Select one or more products"
+				}
+			},
+			"moduleID": "ec89ed0b-4b9f-4b30-9103-f020993ffa1a",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 60,
+			"backgroundColor": "#404040",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_deliverydrone.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_deliverydrone_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "payWithSwish",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "Välj produkter"
+					},
+					"en-US": {
+						"text": "Select products"
+					}
+				},
+				"text1": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "Tack för att du handlar hos oss"
+					},
+					"en-US": {
+						"text": "Thank you for shopping with us"
+					}
+				},
+				"text2": {
+					"textColor": "#7FFF00",
+					"textSize": 30,
+					"textStyle": "italic",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "This is the text2 in some language"
+					},
+					"en-US": {
+						"text": "This is the text2 in some language"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "selectOneProduct",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Välj en produkt"
+				},
+				"en-US": {
+					"text": "Select products"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Välj en produkt"
+				},
+				"en-US": {
+					"text": "Select one or more products"
+				}
+			},
+			"moduleID": "a3f606c7-f1be-4903-8e57-0e3e9178cb29",
+			"moduleVersion": "1.0.0",
+			"isUIModule": false,
+			"backToMenuPageTimer": 1,
+			"backgroundColor": "#404040",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_deliverydrone.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_deliverydrone_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "payWithSwish",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"productSource": "useDefault",
+				"defaultProduct": {
+					"productID": "3315a353-a9ba-472c-bab9-40cfa0ce47bc",
+					"productName": "Coca cola bottle 33cl"
+				}
+			}
+		},
+		{
+			"moduleCode": "selectOneProduct",
+			"moduleInstance": 2,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Välj en produkt"
+				},
+				"en-US": {
+					"text": "Select products"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Välj en produkt"
+				},
+				"en-US": {
+					"text": "Select one or more products"
+				}
+			},
+			"moduleID": "a3f606c7-f1be-4903-8e57-0e3e9178cb29",
+			"moduleVersion": "1.0.0",
+			"isUIModule": false,
+			"backToMenuPageTimer": 1,
+			"backgroundColor": "#404040",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_deliverydrone.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_deliverydrone_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "selectPaymentOption",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"productSource": "useDefault",
+				"defaultProduct": {
+					"productID": "3315a353-a9ba-472c-bab9-40cfa0ce47bc",
+					"productName": "Coca cola bottle 33cl"
+				}
+			}
+		},
+		{
+			"moduleCode": "selectPaymentOption",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Välj betalsätt"
+				},
+				"en-US": {
+					"text": "Select Payment Method"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Välj betalsätt"
+				},
+				"en-US": {
+					"text": "Select Payment Method"
+				}
+			},
+			"moduleID": "dd1855c0-7a50-4a56-b73b-dcfed1abdc39",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 30,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_payment_options_200px.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_payment_options_200px.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "button1",
+					"wires": [
+						{
+							"wiredToModuleCode": "payWithSwish",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "button2",
+					"wires": [
+						{
+							"wiredToModuleCode": "payWithCreditCard",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "button3",
+					"wires": [
+						{
+							"wiredToModuleCode": "addDiscount",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out4",
+					"dataType": "boolean",
+					"resultCode": "button4",
+					"wires": [
+					]
+				},
+				{
+					"port": "out5",
+					"dataType": "boolean",
+					"resultCode": "button5",
+					"wires": [
+					]
+				},
+				{
+					"port": "out6",
+					"dataType": "boolean",
+					"resultCode": "button6",
+					"wires": [
+						{
+							"wiredToModuleCode": "addDiscount",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out7",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "mainMenu",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Välj betalsätt"
+					},
+					"en-US": {
+						"text": "Select Payment Method"
+					}
+				},
+				"priceLabelText": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Totalt: "
+					},
+					"en-US": {
+						"text": "Total: "
+					}
+				},
+				"itemsLabelText": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"sv-SE": {
+						"text": "artiklar"
+					},
+					"en-US": {
+						"text": "items"
+					}
+				}
+			},
+			"buttons": [
+				{
+					"button": 1,
+					"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_swish_white.svg",
+					"backgroundColor": "#393E46",
+					"resultCode": "button1",
+					"mainLabel": {
+						"textColor": "#FFFFFF",
+						"textSize": 20,
+						"textStyle": "bold",
+						"backgroundColor": "#393E46",
+						"sv-SE": {
+							"text": "Swish"
+						},
+						"en-US": {
+							"text": "Swish"
+						}
+					}
+				},
+				{
+					"button": 2,
+					"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_creditcard_white.svg",
+					"backgroundColor": "#393E46",
+					"resultCode": "button2",
+					"mainLabel": {
+						"textColor": "#FFFFFF",
+						"textSize": 20,
+						"textStyle": "bold",
+						"backgroundColor": "#393E46",
+						"sv-SE": {
+							"text": "Kreditkort"
+						},
+						"en-US": {
+							"text": "Credit card"
+						}
+					}
+				},
+				{
+					"button": 3,
+					"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_rfid_white.svg",
+					"backgroundColor": "#393E46",
+					"resultCode": "button3",
+					"mainLabel": {
+						"textColor": "#FFFFFF",
+						"textSize": 20,
+						"textStyle": "bold",
+						"backgroundColor": "#393E46",
+						"sv-SE": {
+							"text": "Nyckeltagg"
+						},
+						"en-US": {
+							"text": "Key tag"
+						}
+					}
+				},
+				{
+					"button": 4,
+					"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_swish_white.svg",
+					"backgroundColor": "#393E46",
+					"resultCode": "button4",
+					"mainLabel": {
+						"textColor": "#FFFFFF",
+						"textSize": 20,
+						"textStyle": "bold",
+						"backgroundColor": "#393E46",
+						"sv-SE": {
+							"text": "Swish"
+						},
+						"en-US": {
+							"text": "Swish"
+						}
+					}
+				},
+				{
+					"button": 5,
+					"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_creditcard_white.svg",
+					"backgroundColor": "#393E46",
+					"resultCode": "button5",
+					"mainLabel": {
+						"textColor": "#FFFFFF",
+						"textSize": 20,
+						"textStyle": "bold",
+						"backgroundColor": "#393E46",
+						"sv-SE": {
+							"text": "Kreditkort"
+						},
+						"en-US": {
+							"text": "Credit card"
+						}
+					}
+				},
+				{
+					"button": 6,
+					"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_rfid_white.svg",
+					"backgroundColor": "#393E46",
+					"resultCode": "button6",
+					"mainLabel": {
+						"textColor": "#FFFFFF",
+						"textSize": 20,
+						"textStyle": "bold",
+						"backgroundColor": "#393E46",
+						"sv-SE": {
+							"text": "Rabatt"
+						},
+						"en-US": {
+							"text": "Discount"
+						}
+					}
+				}
+			]
+		},
+		{
+			"moduleCode": "addDiscount",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Rabatt"
+				},
+				"en-US": {
+					"text": "Discount"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Ange rabattkod"
+				},
+				"en-US": {
+					"text": "Enter discount code"
+				}
+			},
+			"moduleID": "a74b4746-725a-401d-98ab-481ee905c4b6",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 45,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_discount_red.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_discount_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "selectPaymentOption",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"validation": {
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "Rabatt"
+					},
+					"en-US": {
+						"text": "Discount"
+					}
+				},
+				"buttonText": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Lägg till"
+					},
+					"en-US": {
+						"text": "Apply"
+					}
+				},
+				"text1": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Ange rabattkoden"
+					},
+					"en-US": {
+						"text": "Enter discount code"
+					}
+				},
+				"text2": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"sv-SE": {
+						"text": "eller skanna QR-koden"
+					},
+					"en-US": {
+						"text": "or scan the discount QR-code"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "propertyTrigger",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Property trigger"
+				},
+				"en-US": {
+					"text": "Property trigger"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Property trigger"
+				},
+				"en-US": {
+					"text": "Property trigger"
+				}
+			},
+			"moduleID": "3a914660-ed37-4c8b-adf0-165b7bce0c49",
+			"moduleVersion": "1.0.0",
+			"isUIModule": false,
+			"backToMenuPageTimer": 5,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"validation": {
+				"propertyCode": "DI2",
+				"validationExpression": "onChange",
+				"validationValue": 1,
+				"validationValueUnit": "status",
+				"resultCode": "ok"
+			},
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "showOk",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			}
+		},
+		{
+			"moduleCode": "propertyCommand",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Property Command"
+				},
+				"en-US": {
+					"text": "Property Command"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Property Command"
+				},
+				"en-US": {
+					"text": "Property Command"
+				}
+			},
+			"moduleID": "b1f5a5d6-9ac9-493d-b1fd-27c44696fa4f",
+			"moduleVersion": "1.0.0",
+			"isUIModule": false,
+			"backToMenuPageTimer": 5,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "showOk",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"commands": {
+					"propertyCode": "DO1",
+					"commandMode": "pulses",
+					"commandValue": 2,
+					"commandValueUnit": "pulses",
+					"commandDurationTime": 5,
+					"commandDurationTimeUnit": "seconds"
+				}
+			}
+		},
+		{
+			"moduleCode": "propertyCommand",
+			"moduleInstance": 2,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Property Command i2"
+				},
+				"en-US": {
+					"text": "Property Command i2"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Property Command"
+				},
+				"en-US": {
+					"text": "Property Command"
+				}
+			},
+			"moduleID": "b1f5a5d6-9ac9-493d-b1fd-27c44696fa4f",
+			"moduleVersion": "1.0.0",
+			"isUIModule": false,
+			"backToMenuPageTimer": 5,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+						}
+					]
+				}
+			],
+			"settings": {
+				"commands": {
+					"propertyCode": "DO1",
+					"commandMode": "pulses",
+					"commandValue": 1,
+					"commandValueUnit": "pulses",
+					"commandDurationTime": 15,
+					"commandDurationTimeUnit": "seconds"
+				}
+			}
+		},
+		{
+			"moduleCode": "vendingMachine",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Varuautomat"
+				},
+				"en-US": {
+					"text": "Vending"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Varuautomat"
+				},
+				"en-US": {
+					"text": "Vending Machine"
+				}
+			},
+			"moduleID": "787d422b-1e80-4f48-a5f2-fc58340b951d",
+			"moduleVersion": "1.0.0",
+			"isUIModule": false,
+			"backToMenuPageTimer": 180,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				},
+				{
+					"port": "in2",
+					"dataType": "string",
+					"code": "vendAccepted"
+				},
+				{
+					"port": "in3",
+					"dataType": "string",
+					"code": "vendDenied"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "vendReq",
+					"wires": [
+						{
+							"wiredToModuleCode": "selectPaymentOption",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "vendSuccess",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "vendFailure",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+			},
+			"validation": {
+			},
+			"texts": {
+			}
+		},
+		{
+			"moduleCode": "payWithSwish",
+			"moduleInstance": 2,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Betala med Swish"
+				},
+				"en-US": {
+					"text": "Pay with Swish"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Betala med Swish"
+				},
+				"en-US": {
+					"text": "Pay with Swish mobile payment"
+				}
+			},
+			"moduleID": "831fd18f-ab67-4e94-90c5-e3b4aa9a1d04",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 45,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_swish_circle.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_swish_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "payOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "vendingMachine",
+							"moduleInstance": 1,
+							"wiredToPort": "in2"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "payNotOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "vendingMachine",
+							"moduleInstance": 1,
+							"wiredToPort": "in3"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out4",
+					"dataType": "boolean",
+					"resultCode": "payOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"productSource": "useCart"
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "Skanna QR-koden med Swish-appen"
+					},
+					"en-US": {
+						"text": "Scan the QR-code with the Swish app"
+					}
+				},
+				"priceLabelText": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Pris: "
+					},
+					"en-US": {
+						"text": "Price: "
+					}
+				},
+				"text1": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Tack för att du handlar här"
+					},
+					"en-US": {
+						"text": "Thank you for shopping here"
+					}
+				},
+				"text2": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "italic",
+					"sv-SE": {
+						"text": "Godisbutiken"
+					},
+					"en-US": {
+						"text": "Candy store"
+					}
+				},
+				"text3": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "italic",
+					"sv-SE": {
+						"text": "Lämna gärna flaskan till återvinning när du är klar"
+					},
+					"en-US": {
+						"text": "Please recyle the bottle"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "accessPinCode",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "Pinkod"
+				},
+				"en-US": {
+					"text": "Pincode"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "Använd pinkod"
+				},
+				"en-US": {
+					"text": "Use a pincode"
+				}
+			},
+			"moduleID": "565a1727-1cc0-403a-a0b3-b8655b327f94",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 45,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_pincode_black.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_pincode_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "propertyCommand",
+							"moduleInstance": 2,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "notOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"randomButtonOrder": {
+					"settingName": {
+						"sv-SE": {
+							"text": "Blanda knapparna?"
+						},
+						"en-US": {
+							"text": "Random button order?"
+						}
+					},
+					"settingDescription": {
+						"sv-SE": {
+							"text": "Blanda knapparna?"
+						},
+						"en-US": {
+							"text": "Random button order?"
+						}
+					},
+					"isRequired": true,
+					"type": "string",
+					"defaultValue": "standard",
+					"uiControl": "dropdown",
+					"allowedValues": [
+						"standard",
+						"random"
+					]
+				}
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 40,
+					"textStyle": "bold",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "Ange din pinkod"
+					},
+					"en-US": {
+						"text": "Enter your pincode"
+					}
+				},
+				"buttonText": {
+					"textColor": "#86AD33",
+					"textSize": 20,
+					"textStyle": "normal",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Öppna"
+					},
+					"en-US": {
+						"text": "Open"
+					}
+				}
+			}
+		},
+		{
+			"moduleCode": "accessKeyTag",
+			"moduleInstance": 1,
+			"moduleName": {
+				"sv-SE": {
+					"text": "RFID Tagg"
+				},
+				"en-US": {
+					"text": "RFID Tag"
+				}
+			},
+			"moduleDescription": {
+				"sv-SE": {
+					"text": "RFID Tagg"
+				},
+				"en-US": {
+					"text": "RFID Tag"
+				}
+			},
+			"moduleID": "e3eeabda-0c54-4e2d-8f80-f07973aaeb61",
+			"moduleVersion": "1.0.0",
+			"isUIModule": true,
+			"backToMenuPageTimer": 45,
+			"backgroundColor": "#393E46",
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_rfid_black.svg",
+			"mainImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_rfid_white.svg",
+			"inputs": [
+				{
+					"port": "in1",
+					"dataType": "string",
+					"code": "start"
+				}
+			],
+			"outputs": [
+				{
+					"port": "out1",
+					"dataType": "boolean",
+					"resultCode": "ok",
+					"wires": [
+						{
+							"wiredToModuleCode": "propertyCommand",
+							"moduleInstance": 2,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out2",
+					"dataType": "boolean",
+					"resultCode": "notOk",
+					"wires": [
+						{
+							"wiredToModuleCode": "showNotOK",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				},
+				{
+					"port": "out3",
+					"dataType": "boolean",
+					"resultCode": "cancel",
+					"wires": [
+						{
+							"wiredToModuleCode": "menuPage",
+							"moduleInstance": 1,
+							"wiredToPort": "in1"
+						}
+					]
+				}
+			],
+			"settings": {
+				"randomButtonOrder": {
+					"settingName": {
+						"sv-SE": {
+							"text": "Blanda knapparna?"
+						},
+						"en-US": {
+							"text": "Random button order?"
+						}
+					},
+					"settingDescription": {
+						"sv-SE": {
+							"text": "Blanda knapparna?"
+						},
+						"en-US": {
+							"text": "Random button order?"
+						}
+					},
+					"isRequired": true,
+					"type": "string",
+					"defaultValue": "standard",
+					"uiControl": "dropdown",
+					"allowedValues": [
+						"standard",
+						"random"
+					]
+				}
+			},
+			"texts": {
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 25,
+					"textStyle": "bold",
+					"backgroundColor": "#404040",
+					"sv-SE": {
+						"text": "Håll blippen/taggen nära displayen för att öppna dörren"
+					},
+					"en-US": {
+						"text": "Hold your key tag close to the display to open the door"
+					}
+				}
+			}
+		}
+	],
+	"actionTriggers": {
+		"OpenDoor": {
+			"wires": [
+				{
+					"wiredToModuleCode": "propertyCommand",
+					"moduleInstance": 2,
+					"wiredToPort": "in1"
+				}
+			],
+			"settings": {
+			}
+		}
+	},
+	"dataSources": [
+		{
+			"dataSourceCode": "localio",
+			"dataSourceTypeCode": "gpio",
+			"connector": "localio",
+			"protocol": "localio",
+			"dataSourceName": "Local IO"
+		},
+		{
+			"dataSourceCode": "mdb",
+			"dataSourceTypeCode": "mdb",
+			"protocol": "mdb",
+			"connector": "mdb",
+			"dataSourceName": "MDB",
+			"settings": {
+				"cashlessIDHex": 10
+			}
+		},
+		{
+			"dataSourceCode": "modbus",
+			"dataSourceTypeCode": "modbus",
+			"protocol": "modbusRTU",
+			"connector": "usb",
+			"dataSourceName": "Modbus",
+			"settings": {
+				"baudRate": 9600,
+				"parity": "none,odd,even",
+				"dataBits": 8,
+				"stopBits": 1
+			}
+		},
+		{
+			"dataSourceCode": "numatoRelay",
+			"dataSourceTypeCode": "relay",
+			"protocol": "numatoRelay",
+			"connector": "usb",
+			"dataSourceName": "Numato Relay"
+		}
+	],
+	"properties": [
+		{
+			"propertyCode": "DO1",
+			"dataType": "boolean",
+			"dataSourceCode": "localio",
+			"dataSourceName": "Local IO",
+			"actualValue": 1,
+			"targetValue": 1,
+			"address": "DO1",
+			"pollInterval": 1,
+			"pollIntervalUnit": "seconds"
+		},
+		{
+			"propertyCode": "DO2",
+			"dataType": "boolean",
+			"dataSourceCode": "localio",
+			"dataSourceName": "Local IO",
+			"actualValue": 1,
+			"targetValue": 1,
+			"address": "DO2",
+			"pollInterval": 1,
+			"pollIntervalUnit": "seconds"
+		},
+		{
+			"propertyCode": "DI1",
+			"dataType": "boolean",
+			"dataSourceCode": "localio",
+			"dataSourceName": "Local IO",
+			"actualValue": 1,
+			"targetValue": 1,
+			"address": "DI1",
+			"pollInterval": 1,
+			"pollIntervalUnit": "seconds"
+		},
+		{
+			"propertyCode": "DI2",
+			"dataType": "boolean",
+			"dataSourceCode": "localio",
+			"dataSourceName": "Local IO",
+			"actualValue": 1,
+			"targetValue": 1,
+			"address": "DI2",
+			"pollInterval": 1,
+			"pollIntervalUnit": "seconds"
+		},
+		{
+			"propertyCode": "DI3",
+			"dataType": "boolean",
+			"dataSourceCode": "localio",
+			"dataSourceName": "Local IO",
+			"actualValue": 1,
+			"targetValue": 1,
+			"address": "DI3",
+			"pollInterval": 1,
+			"pollIntervalUnit": "seconds"
+		},
+		{
+			"propertyCode": "AI1",
+			"dataType": "decimal",
+			"dataSourceCode": "modbus",
+			"dataSourceName": "Modbus",
+			"actualValue": 1,
+			"targetValue": 1,
+			"address": 40001,
+			"nodeID": 4,
+			"pollInterval": 5,
+			"pollIntervalUnit": "seconds",
+			"scaling": {
+				"inputLowValue": 4,
+				"inputHighValue": 20,
+				"scaledLowValue": 0,
+				"scaledHighValue": 200
+			}
+		}
+	],
+	"resources": {
+		"backgroundColor": "#000000",
+		"backToMenuPageTimer": 120,
+		"headerBackgroundColor": "#393E46",
+		"unit": "seconds,minutes,hours,kwh,liters",
+		"defaultPricePerUnit": 1,
+		"resourceObjects": [
+			{
+				"position": 1,
+				"objectType": "button",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_carwash_highpress_white_200px.svg",
+				"backgroundColor": "#393E46",
+				"activatedBackgroundColor": "#00FF00",
+				"propertyCode": "DO101",
+				"pricePerUnit": 1.5,
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Högtryck"
+					},
+					"en-US": {
+						"text": "Press. wash"
+					}
+				}
+			},
+			{
+				"position": 2,
+				"objectType": "button",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_carwash_schampo_white_200px.svg",
+				"backgroundColor": "#393E46",
+				"activatedBackgroundColor": "#00FF00",
+				"propertyCode": "DO102",
+				"pricePerUnit": 3,
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Schampo"
+					},
+					"en-US": {
+						"text": "Schampoo"
+					}
+				}
+			},
+			{
+				"position": 3,
+				"objectType": "button",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_carwash_power_white_200px.svg",
+				"backgroundColor": "#393E46",
+				"activatedBackgroundColor": "#00FF00",
+				"propertyCode": "DO103",
+				"pricePerUnit": 2.5,
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Eluttag"
+					},
+					"en-US": {
+						"text": "Electrical outlet"
+					}
+				}
+			},
+			{
+				"position": 4,
+				"objectType": "button",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_carwash_avfett_white_200px.svg",
+				"backgroundColor": "#393E46",
+				"activatedBackgroundColor": "#00FF00",
+				"propertyCode": "DO104",
+				"pricePerUnit": 4,
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Avfettning"
+					},
+					"en-US": {
+						"text": "Cleaning"
+					}
+				}
+			},
+			{
+				"position": 5,
+				"objectType": "button",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_carwash_water_white_200px.svg",
+				"backgroundColor": "#393E46",
+				"activatedBackgroundColor": "#00FF00",
+				"propertyCode": "DO105",
+				"pricePerUnit": 3,
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Kranvatten"
+					},
+					"en-US": {
+						"text": "Water"
+					}
+				}
+			},
+			{
+				"position": 6,
+				"objectType": "button",
+				"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_carwash_air_white_200px.svg",
+				"backgroundColor": "#393E46",
+				"activatedBackgroundColor": "#00FF00",
+				"propertyCode": "DO106",
+				"pricePerUnit": 1,
+				"mainLabel": {
+					"textColor": "#FFFFFF",
+					"textSize": 20,
+					"textStyle": "bold",
+					"backgroundColor": "#393E46",
+					"sv-SE": {
+						"text": "Tryckluft"
+					},
+					"en-US": {
+						"text": "Compressed Air"
+					}
+				}
+			}
+		]
+	},
+	"statusObjects": {
+		"available": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_open.svg",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Öppet"
+				},
+				"en-US": {
+					"text": "The shop is open"
+				}
+			}
+		},
+		"closed": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_closed_500px.svg",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Stängt"
+				},
+				"en-US": {
+					"text": "Shop is closed"
+				}
+			}
+		},
+		"maintenance": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_maintenance_500px.svg",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Teknisk underhåll"
+				},
+				"en-US": {
+					"text": "Closed for maintenance"
+				}
+			}
+		},
+		"cleaning": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_cleaning_500px.svg",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Städning pågår"
+				},
+				"en-US": {
+					"text": "Cleaning in progress"
+				}
+			}
+		},
+		"booked": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_reserved_500px",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Bookad"
+				},
+				"en-US": {
+					"text": "Booked"
+				}
+			}
+		},
+		"occupied": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/Occupied.svg",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Upptaget"
+				},
+				"en-US": {
+					"text": "Occupied"
+				}
+			}
+		},
+		"evacuate": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_evacuation_500px.svg",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Evakuera byggnaden"
+				},
+				"en-US": {
+					"text": "Evacuate the building"
+				}
+			}
+		},
+		"fire": {
+			"iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_fire_500px.svg",
+			"backgroundColor": "#393E46",
+			"mainLabel": {
+				"textColor": "#FFFFFF",
+				"textSize": 20,
+				"textStyle": "bold",
+				"backgroundColor": "#393E46",
+				"sv-SE": {
+					"text": "Brand"
+				},
+				"en-US": {
+					"text": "Fire"
+				}
+			}
+		}
+	},
+	"openHours": {
+		"monday": [
+			{
+				"fromTime": "05:00:00",
+				"toTime": "11:00:00"
+			},
+			{
+				"fromTime": "12:00:00",
+				"toTime": "20:00:00"
+			}
+		],
+		"tuesday": [
+			{
+				"fromTime": "07:00:00",
+				"toTime": "18:00:00"
+			}
+		],
+		"wednesday": [
+			{
+				"fromTime": "08:00:00",
+				"toTime": "10:00:00"
+			},
+			{
+				"fromTime": "14:00:00",
+				"toTime": "24:00:00"
+			}
+		],
+		"thursday": [
+			{
+				"fromTime": "04:00:00",
+				"toTime": "20:00:00"
+			}
+		],
+		"friday": [
+			{
+				"fromTime": "08:00:00",
+				"toTime": "17:00:00"
+			}
+		]
+	},
+	"specialDaysOpenHours": [
+		{
+			"openDate": "2021-06-03",
+			"fromTime": "08:00:00",
+			"toTime": "09:00:00"
+		},
+		{
+			"openDate": "2021-06-03",
+			"fromTime": "12:00:00",
+			"toTime": "17:00:00"
+		},
+		{
+			"openDate": "2021-06-04",
+			"fromTime": "12:00:00",
+			"toTime": "17:00:00"
+		},
+		{
+			"openDate": "2021-06-05",
+			"fromTime": "12:00:00",
+			"toTime": "17:00:00"
+		}
+	],
+	"propertyDataReaders": [
+		{
+			"propertyCode": "DI1",
+			"readInterval": 60,
+			"readIntervalUnit": "seconds"
+		},
+		{
+			"propertyCode": "AI1",
+			"readInterval": 1,
+			"readIntervalUnit": "hours"
+		}
+	],
+	"createdDate": "2020-04-14T14:05:36Z",
+	"updatedDate": "2020-04-14T15:18:12Z"
+}

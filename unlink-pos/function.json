@@ -1,0 +1,22 @@
+
+{
+  "bindings": [
+    {
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "authLevel": "anonymous",
+      "methods": [ "POST" ],
+      "route": "{apiVersion}/unlink-pos"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+
+
+    
+  ],
+  "disabled": false
+}

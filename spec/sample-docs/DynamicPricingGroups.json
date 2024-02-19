@@ -1,0 +1,61 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "dynamicPricingGroups",
+	"partitionKey": "Same as _id",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"merchantName": "Turistbutiken i Åre",
+	"parentDynamicPricingGroupID": "33358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"isEnabled": true,
+	"dynamicPricingGroupName": "DPG group 1",
+	"dynamicPricingGroupDescription": "This is for this building",
+	"iconImageURL": "https://media.vourity.com/blueburger1.png",
+	"countryCode": "SE",
+	"timeZone": "CET",
+	"priceSources": [
+		{
+			"priceSourceCode": "nordPoolSpot",
+			"priceArea": "SE,SE1,SE2,SE3,SE4,NO,NO1,NO2,NO3,NO4,NO5,DK,DK1,DK2,FI",
+			"weight": 50
+		},
+		{
+			"priceSourceCode": "siteOccupancy",
+			"priceArea": "",
+			"weight": 50
+		}
+	],
+	"currency": "SEK",
+	"defaultSalesPrice": 304.45,
+	"currentSalesPrice": 304.45,
+	"minSalesPrice": 123.45,
+	"maxSalesPrice": 456.78,
+	"publicPriceInfo": {
+		"sv-SE": {
+			"text": "[currentSalesPrice] kr per kWh"
+		},
+		"en-US": {
+			"text": "[currentSalesPrice] SEK per kWh"
+		}
+	},
+	"markupAmount": 18.50,
+	"markupPercent": 5.00,
+	"priceCalculationRule": "priceSource,sliding24HourAverage",
+	"createdDate": "2022-10-08T14:05:36Z",
+	"updatedDate": "2022-10-08T15:18:12Z"
+}

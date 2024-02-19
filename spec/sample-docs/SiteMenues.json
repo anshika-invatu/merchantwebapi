@@ -1,0 +1,75 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "siteMenues",
+	 "partitionKey": "Same as the _id",
+	 "siteMenuName": "Name of the site menu",
+	 "siteMenuDescription": "Some description",
+	 "pageIconImageURL": "https://media.vourity.com/vendingmachine.png",
+	 "defaultPageURL": "../pos/dashboard.htm",
+	 "categoryTexts": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "menu": [
+		{
+			 "nodeID": 1,
+			 "iconImageURL": "https://media.vourity.com/blueburger1.png",
+			 "pageURL": "../pos/dashboard.htm",
+			 "texts": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "This is the text in some language"
+				}
+			}
+		},
+		{
+			 "nodeID": 2,
+			 "iconImageURL": "https://media.vourity.com/blueburger1.png",
+			 "pageURL": "../pos/products.htm",
+			 "texts": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "This is the text in some language"
+				}
+			},
+			 "childNodes": [
+				{
+					 "nodeID": 21,
+					 "iconImageURL": "https://media.vourity.com/blueburger1.png",
+					 "pageURL": "../pos/dashboard.htm",
+					 "texts": {
+						 "sv-SE": {
+							 "text": "html encode ??? This is the text in some language"
+						},
+						 "en-US": {
+							 "text": "This is the text in some language"
+						}
+					}
+				},
+				{
+					 "nodeID": 22,
+					 "iconImageURL": "https://media.vourity.com/blueburger1.png",
+					 "pageURL": "../pos/products.htm",
+					 "texts": {
+						 "sv-SE": {
+							 "text": "html encode ??? This is the text in some language"
+						},
+						 "en-US": {
+							 "text": "This is the text in some language"
+						}
+					}
+				}
+			]
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

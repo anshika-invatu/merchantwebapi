@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [ "POST" ],
+      "route": "{apiVersion}/merchants/{id}/ocpi-location-from-pos/{pointOfServiceID}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}

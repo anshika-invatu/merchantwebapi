@@ -1,0 +1,326 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "accountList",
+	 "partitionKey": "merchantID",
+	 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "countryCode": "SE",
+	 "accounts": [
+		{
+			 "accountTag": "SalesSPV",
+			 "accountNumber": 3010,
+			 "accountName": "Sales - Single Purpose Voucher",
+			 "accountSruCode": 3010,
+			 "currency": "SEK",
+			 "isDebit": true
+		},
+		{
+			 "accountTag": "SalesMPV",
+			 "accountNumber": 3011,
+			 "accountName": "Sales - Multi Purpose Voucher",
+			 "accountSruCode": 3011,
+			 "currency": "SEK",
+			 "isDebit": true
+		},
+		{
+			 "accountTag": "VourityClientFunds",
+			 "accountNumber": 1950,
+			 "accountName": "VourityClientFunds",
+			 "accountSruCode": 1950,
+			 "currency": "SEK",
+			 "isDebit": false
+		},
+		{
+			 "accountTag": "ServiceFees",
+			 "accountNumber": 3014,
+			 "accountName": "Service Fee",
+			 "accountSruCode": 3014,
+			 "currency": "SEK",
+			 "isDebit": false
+		},
+		{
+			 "accountTag": "ResellerCommissions",
+			 "accountNumber": 4010,
+			 "accountName": "Reseller Commissions",
+			 "accountSruCode": 4010,
+			 "currency": "SEK",
+			 "isDebit": false
+		},
+		{
+			 "accountTag": "ExpiredSPV",
+			 "accountNumber": 3012,
+			 "accountName": "Expired Single Purpose Vouchers",
+			 "accountSruCode": 3012,
+			 "currency": "SEK",
+			 "isDebit": true
+		},
+		{
+			 "accountTag": "ExpiredMPV",
+			 "accountNumber": 3013,
+			 "accountName": "Expired Multi Purpose Vouchers",
+			 "accountSruCode": 3013,
+			 "currency": "SEK",
+			 "isDebit": true
+		},
+		{
+			 "accountTag": "VAT1In",
+			 "accountNumber": 2641,
+			 "accountName": "VAT 1 Incomimg",
+			 "accountSruCode": 2641,
+			 "currency": "SEK",
+			 "isDebit": true
+		},
+		{
+			 "accountTag": "VAT1Out",
+			 "accountNumber": 2611,
+			 "accountName": "VAT 1 Outgoing",
+			 "accountSruCode": 2611,
+			 "currency": "SEK",
+			 "isDebit": false
+		},
+		{
+			 "accountTag": "VAT2In",
+			 "accountNumber": 2651,
+			 "accountName": "VAT 2 Incomimg",
+			 "accountSruCode": 2651,
+			 "currency": "SEK",
+			 "isDebit": true
+		},
+		{
+			 "accountTag": "VAT2Out",
+			 "accountNumber": 2621,
+			 "accountName": "VAT 2 Outgoing",
+			 "accountSruCode": 2621,
+			 "currency": "SEK",
+			 "isDebit": false
+		},
+		{
+			 "accountTag": "VAT3In",
+			 "accountNumber": 2661,
+			 "accountName": "VAT 3 Incomimg",
+			 "accountSruCode": 2661,
+			 "currency": "SEK",
+			 "isDebit": true
+		},
+		{
+			 "accountTag": "VAT3Out",
+			 "accountNumber": 2631,
+			 "accountName": "VAT 3 Outgoing",
+			 "accountSruCode": 2631,
+			 "currency": "SEK",
+			 "isDebit": false
+		}
+	],
+	 "vatClasses": [
+		{
+			 "vatClass": "SEVAT0",
+			 "vatName": "VAT Tax 0%",
+			 "vatDescription": "Moms 0%",
+			 "outgoingVatAccountTag": "VAT1Out",
+			 "incomingVatAccountTag": "VAT1In"
+		},
+		{
+			 "vatClass": "SEVAT1",
+			 "vatName": "VAT Tax 25%",
+			 "vatDescription": "Moms 25%",
+			 "outgoingVatAccountTag": "VAT1Out",
+			 "incomingVatAccountTag": "VAT1In"
+		},
+		{
+			 "vatClass": "SEVAT2",
+			 "vatName": "VAT Tax 12%",
+			 "vatDescription": "Moms 25%",
+			 "outgoingVatAccountTag": "VAT2Out",
+			 "incomingVatAccountTag": "VAT2In"
+		},
+		{
+			 "vatClass": "SEVAT3",
+			 "vatName": "VAT Tax 6%",
+			 "vatDescription": "Moms 6%",
+			 "outgoingVatAccountTag": "VAT3Out",
+			 "incomingVatAccountTag": "VAT3In"
+		}
+	],
+	 "productClasses": [
+		{
+			 "productClass": "SalesSPV",
+			 "productClassName": "Sales Single-purpose Voucher",
+			 "salesAccountTag": "SalesSPV",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": true,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "SalesMPV",
+			 "productClassName": "Sales Multi-purpose Voucher",
+			 "salesAccountTag": "SalesMPV",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": true,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "RedemptionSPV",
+			 "productClassName": "Redemption Single-purpose Voucher",
+			 "salesAccountTag": "SalesSPV",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": true,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "RedemptionMPV",
+			 "productClassName": "Redemption Multi-purpose Voucher",
+			 "salesAccountTag": "SalesMPV",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": true,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "SalesRefundSPV",
+			 "productClassName": "Refund Single-purpose Voucher",
+			 "salesAccountTag": "VourityClientFunds",
+			 "costAccountTag": "SalesSPV",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "SalesRefundMPV",
+			 "productClassName": "Refund Multi-purpose Voucher",
+			 "salesAccountTag": "VourityClientFunds",
+			 "costAccountTag": "SalesMPV",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "ServiceFees",
+			 "productClassName": "Service Fees",
+			 "salesAccountTag": "ServiceFees",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "ResellerCommissions",
+			 "productClassName": "Reseller Comissions",
+			 "salesAccountTag": "ResellerCommissions",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "ExpiredSPV",
+			 "productClassName": "Expired Single-purpose Voucher",
+			 "salesAccountTag": "ExpiredSPV",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT0",
+			 "vatRate": 0,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "ExpiredMPV",
+			 "productClassName": "Expired Multi-purpose Voucher",
+			 "salesAccountTag": "ExpiredMPV",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT0",
+			 "vatRate": 0,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "Payout",
+			 "productClassName": "Settlement",
+			 "salesAccountTag": "VourityClientFunds",
+			 "costAccountTag": "VourityClientFunds",
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "Clearing",
+			 "productClassName": "Clearing",
+			 "salesAccountTag": "VourityClientFunds",
+			 "costAccountTag": "VourityClientFunds",
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "Deposits",
+			 "productClassName": "Deposits",
+			 "salesAccountTag": "VourityClientFunds",
+			 "costAccountTag": "VourityClientFunds",
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "Withdrawls",
+			 "productClassName": "Withdrawls",
+			 "salesAccountTag": "VourityClientFunds",
+			 "costAccountTag": "VourityClientFunds",
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "PartnerCommission",
+			 "productClassName": "Partner Comissions",
+			 "salesAccountTag": "ResellerCommissions",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "VendingPurchase",
+			 "productClassName": "Vending Purchase",
+			 "salesAccountTag": "SalesSPV",
+			 "costAccountTag": "VourityClientFunds",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": true,
+			 "currency": "SEK"
+		},
+		{
+			 "productClass": "VendingRefund",
+			 "productClassName": "Vending Refund",
+			 "salesAccountTag": "VourityClientFunds",
+			 "costAccountTag": "SalesSPV",
+			 "vatClass": "VAT1",
+			 "vatRate": 25,
+			 "isSystemClass": true,
+			 "showInProductLists": false,
+			 "currency": "SEK"
+		}
+	],
+	 "createdDate": "2019-02-08T14:05:36Z",
+	 "updatedDate": "2019-02-08T15:18:12Z"
+}

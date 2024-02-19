@@ -1,0 +1,44 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "accountingTransaction",
+	 "partitionKey": "merchantID",
+	 "transactionDate": "2017-10-16T14:05:36Z",
+	 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "merchantName": "Vasamuseet",
+	 "transactionSequenceNumber": 213123213213,
+	 "transactionType": "SalesSPV",
+	 "transactionTypeText": "Sales Single-purpose Voucher",
+	 "reference": {
+		 "referenceText": "Order of Destination Pass",
+		 "orderID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+		 "paymentTransactionID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+		 "redemptionID": "2d3b022d-0911-43e8-a8b0-398ae950d981"
+	},
+	 "currency": "SEK",
+	 "transactionItems": [
+		{
+			 "accountTag": "SalesSPV",
+			 "accountNumber": 5012,
+			 "accountName": "Sales - Single Purpose Voucher",
+			 "accountSruCode": 502,
+			 "amount": -1234.99,
+			 "debit": 1234.99,
+			 "credit": 0
+		},
+		{
+			 "accountTag": "VAT1",
+			 "accountNumber": 2718,
+			 "accountName": "VAT 1",
+			 "accountSruCode": 271,
+			 "amount": 78,
+			 "debit": 0,
+			 "credit": 78
+		}
+	],
+	 "debitTotal": 1234.98,
+	 "creditTotal": 78.00,
+	 "amountDiff": 0,
+	 "notes": "The customer is happy",
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

@@ -1,0 +1,32 @@
+{
+	"_id": "15958cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "eventsV2",
+	"partitionKey": "Same as _id",
+	"eventTypeCode": "posHighTemperature,posOffline",
+	"eventTypeName": {
+		"sv-SE": {
+			"text": "Name of the event type in some language"
+		},
+		"en-US": {
+			"text": "Name of the event type in some language"
+		}
+	},
+	"eventTypeDescription": {
+		"sv-SE": {
+			"text": "The description"
+		},
+		"en-US": {
+			"text": "The description"
+		}
+	},
+	"merchantID": "b019ff83-f559-4dca-80df-cf90f165e9cd",
+	"sourceObjectID": "147bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"sourceObjectName": "My nice POS",
+	"sourceObjectType": "pos",
+	"severity":"critical,error,warning,information",
+	"status":"active,resolved",
+	"payload": {
+	},
+	"createdDate": "2023-03-28T14:05:36Z",
+	"updatedDate": "2023-03-28T14:05:36Z"
+}

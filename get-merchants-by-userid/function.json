@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "authLevel": "anonymous",
+      "methods": [
+        "GET"
+      ],
+      "route": "{apiVersion}/users/{id}/merchants"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

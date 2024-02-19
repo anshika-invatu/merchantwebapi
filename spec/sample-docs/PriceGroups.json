@@ -1,0 +1,93 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "priceGroups",
+	"partitionKey": "Same as the _id",
+	"priceGroupName": "Name of the group",
+	"priceGroupDescription": "Some description",
+	"priceGroupIconURL": "https://media.vourity.com/product.svg",
+	"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"currency": "SEK",
+	"publicPriceInfo": {
+		"sv-SE": {
+			"text": "175 kr per natt"
+		},
+		"en-US": {
+			"text": "175 SEK per night"
+		}
+	},
+	"prices": [
+		{
+			"productCategoryCode": "defaultPrice",
+			"customerCategoryCode":"anyone,adult,youngAdult,child,senior,member,staff,vip,contractor,partner",
+			"vatPercent": 25.00,
+			"vatClass": "SEVAT1",
+			"vatName": "VAT Tax 25%",
+			"priceDaysOfWeek": {
+				"monday": [
+					{
+						"fromTime": "08:00:00",
+						"toTime": "11:00:00",
+						"priceType": "fixedPrice,pricePerUnit,freeOfCharge",
+						"unitCode": "kWh,seconds,minutes,hours,liter,timeSlot,booking",
+						"salesPrice": 123.45
+					},
+					{
+						"fromTime": "14:00:00",
+						"toTime": "20:00:00",
+						"priceType": "fixedPrice,pricePerUnit,freeOfCharge",
+						"unitCode": "kWh,seconds,minutes,hours,liter,timeSlot,booking",
+						"salesPrice": 102.45
+					}
+				],
+				"tuesday": [
+					{
+						"fromTime": "08:00:00",
+						"toTime": "17:00:00",
+						"priceType": "fixedPrice,pricePerUnit,freeOfCharge",
+						"unitCode": "kWh,seconds,minutes,hours,liter,timeSlot,booking",
+						"salesPrice": 304.45
+					}
+				]
+			}
+		}
+	],
+	"resellerCommissionAmount": 18.50,
+	"resellerCommissionPercent": 5.00,
+	"salesFees": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"feeName": "Booking fee",
+			"feeType": "percentage,fixedAmount",
+			"feeAmount": 5.75,
+			"feetPercentage": 10.12
+		},
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"feeName": "Booking fee",
+			"feeType": "percentage,fixedAmount",
+			"feeAmount": 2,
+			"feetPercentage": 5
+		}
+	],
+	"createdDate": "2020-04-14T14:05:36Z",
+	"updatedDate": "2020-04-14T15:18:12Z"
+}

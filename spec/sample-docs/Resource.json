@@ -1,0 +1,267 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "resources",
+	 "partitionKey": "Same as the _id",
+	 "resourceName": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "resourceDescription": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "resourceDescriptionLong": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "resourceGroupID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "resourceGroupName": "Some type name",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "isEnabled": true,
+	 "resourceType": "EVSE",
+	 "resourceTypeID": "73558cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "resourceTypeName": "Some type name",
+	 "statusCode": "available",
+	 "statusReason": "Charging ended",
+	 "statusUpdatedDate": "2020-04-14T15:18:12Z",
+	 "conditionCode": "clean",
+	 "conditionUpdatedDate": "2020-04-14T15:18:12Z",
+	 "seoMetaTitle": "Some looooong description of the Resource",
+	 "seoMetaDescription": "Some looooong description of the Resource",
+	 "moreInfoURL": "http://vourity.com/products/nice-car.htm",
+	 "categories": [
+		"gift certificates",
+		"do good"
+	],
+	 "tags": [
+		"home",
+		"green"
+	],
+	 "specialConditions": "Some text about special conditions in text about how to use the resource",
+	 "campaignCode": "Some magic - code 1234",
+	 "imageURL": "http://media.vourity.com/logoburger.png",
+	 "iconImageURL": "http://media.vourity.com/logoburger.png",
+	 "rating": 4.6,
+	 "totalRatingValue": 516,
+	 "numberofRatings": 112,
+	 "ratingDetails": {
+		 "numberofRatings1": 64,
+		 "numberofRatings2": 12,
+		 "numberofRatings3": 78,
+		 "numberofRatings4": 37,
+		 "numberofRatings5": 562
+	},
+	 "location": {
+		 "streetRow1": "Mega street 5",
+		 "streetRow2": "Mega street 5",
+		 "zip": "12233JJHH",
+		 "city": "Stockholm",
+		 "state": "NYC",
+		 "country": "Sweden",
+		 "countryCode": "SE",
+		 "latitude": 59.123456789,
+		 "longitude": -18.123456789,
+		 "locationDescription": {
+			 "sv-SE": {
+				 "text": "You find the door next to the yellow building. Go to the back side and show your Voucher"
+			},
+			 "en-US": {
+				 "text": "You find the door next to the yellow building. Go to the back side and show your Voucher"
+			}
+		},
+		 "zone": {
+			 "siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "siteName": "Stockholm Office",
+			 "zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "zoneName": "Zone Upper floor"
+		},
+		 "pos": {
+			 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "pointOfServiceName": "Rental site outside the big shop"
+		}
+	},
+	 "bookableSchedules": [
+		{
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours",
+			 "priority": 2
+		},
+		{
+			 "scheduleID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Christmas",
+			 "priority": 1
+		}
+	],
+	 "bookingRules": {
+		 "resourceBlockedMinutesAfterCheckOut": 60,
+		 "allowMultipleBookingsAtTheSameTime": false,
+		 "automaticCheckInOnStartTime": true,
+		 "automaticCheckInOnFirstUse": true,
+		 "automaticCheckOutOnStopTime": false,
+		 "automaticCancelIfNotCheckInBeforeTime": 15,
+		 "automaticCancelIfNotCheckInBeforeTimeUnit": "seconds,minutes,hours,days,weeks,months,years",
+		 "walletMaxNumberOfBookingsPerMonth": 10,
+		 "walletMaxNumberOfBookingsPerWeek": 2,
+		 "WalletMaxNumberOfBookingsActiveAtTheSameTime": 2,
+		 "bookMaxNumberOfDaysInAdvance": 365,
+		 "maxNumberOfBookingsOnTheSameTimeSlot": 30,
+		 "maxBookingTime": 30,
+		 "maxBookingTimeUnit": "seconds,minutes,hours,days,weeks,months,years",
+		 "allowAccessBeforeCheckInTime": 10,
+		 "allowAccessBeforeCheckInTimeUnit": "seconds,minutes,hours,days,weeks,months,years",
+		 "allowAccessAfterCheckOutTime": 15,
+		 "allowAccessAfterCheckOutTimeUnit": "seconds,minutes,hours,days,weeks,months,years",
+		 "isWaitListEnabled": true,
+		 "totalNumberOfSlotsAvailable": 100
+	},
+	 "products": [
+		{
+			 "productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			 "productName": "The blue product",
+			 "productDescription": "Some description of the Product",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "isEnabledForSale": true,
+			 "isDefaultProduct": true
+		},
+		{
+			 "productID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "productName": "The green product",
+			 "productDescription": "Some description of the Product",
+			 "imageURL": "https://media.vourity.com/greenburger.png",
+			 "isEnabledForSale": true,
+			 "isDefaultProduct": false
+		}
+	],
+	 "accessRights": {
+		 "accessGroups": {
+			 "474b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "accessGroupName": "Group 1"
+			},
+			 "574b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "accessGroupName": "Group 2"
+			}
+		},
+		 "pointOfServices": {
+			 "752b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "pointOfServiceName": "POS at rental site A",
+				 "components": [
+					{
+						 "componentID": "631b917c-9971-4ec4-89b5-0ab80f2607ae",
+						 "componentName": "Bin 203"
+					},
+					{
+						 "componentID": "631b917c-9971-4ec4-89b5-0ab80f2607ae",
+						 "componentName": "Bin 203"
+					}
+				]
+			}
+		}
+	},
+	 "partnerNetworkID": "4561938e-88a1-4141-b0bc-4c280a7379b6",
+	 "texts": {
+		 "text1": {
+			 "textColor": "#86AD33",
+			 "textSize": 20,
+			 "textStyle": "bold",
+			 "backgroundColor": "#86AD33",
+			 "sv-SE": {
+				 "text": "html encode ??? This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		},
+		 "text2": {
+			 "textColor": "#86AD33",
+			 "textSize": 20,
+			 "textStyle": "normal",
+			 "backgroundColor": "#86AD33",
+			 "sv-SE": {
+				 "text": "This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		},
+		 "text3": {
+			 "textColor": "#86AD33",
+			 "textSize": 20,
+			 "textStyle": "italic",
+			 "sv-SE": {
+				 "text": "This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		}
+	},
+	 "events": {
+		 "bookingBooked": {
+			 "actions": [
+				{
+					 "actionCode": "openDoor2",
+					 "actionName": "Open door number 2",
+					 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+					 "pointOfServiceName": "Door 2",
+					 "actionParameters": {
+						 "timerSeconds": {
+							 "name": "Timer value in seconds",
+							 "type": "decimal",
+							 "value": 5
+						}
+					}
+				}
+			]
+		},
+		 "bookingCheckin": {
+			 "actions": {
+			}
+		},
+		 "bookingCheckout": {
+			 "conditionCode": "dirty",
+			 "actions": {
+			}
+		},
+		 "bookingNoShow": {
+			 "conditionCode": "clean",
+			 "actions": {
+			}
+		},
+		 "bookingCanceled": {
+			 "conditionCode": "clean",
+			 "actions": {
+			}
+		}
+	},
+	 "lastCleanedDate": "2020-04-14T15:18:12Z",
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

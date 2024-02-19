@@ -1,0 +1,11 @@
+{
+	 "_id": "15958cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "posLog",
+	 "partitionKey": "23458cfa-063d-4f5c-be5d-b90cfb64d1d6-2019",
+	 "pointOfServiceID": "3cc69cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "eventCode": "Device was linked",
+	 "eventText": "Something happened",
+	 "actionByUserID": "3cc69cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

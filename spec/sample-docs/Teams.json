@@ -1,0 +1,11 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "teams",
+	"partitionKey": "Same as the _id",
+	"merchantID": "2ee58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"teamName": "Name of the group",
+	"teamDescription": "Some description",
+	"teamImageURL": "https://media.vourity.com/product.svg",
+	"createdDate": "2023-01-14T14:05:36Z",
+	"updatedDate": "2023-01-14T15:18:12Z"
+}

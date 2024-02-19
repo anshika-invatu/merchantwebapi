@@ -1,0 +1,35 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "eventSubscribers",
+	"partitionKey": "Same as the _id",
+	"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"eventTypeCode": "posHighTemperature",
+	"eventTypeName": {
+		"sv-SE": {
+			"text": "Name of the event type in some language"
+		},
+		"en-US": {
+			"text": "Name of the event type in some language"
+		}
+	},
+	"isEnabled": true,
+	"sourceObjectID": "147bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"sourceObjectName": "My nice POS",
+	"sourceObjectType": "pos",
+	"severity": "critical,error,warning,information",
+	"status": "active,resolved",
+	"notifications": [
+		{
+			"notificationType": "team",
+			"teamID": "147bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"teamName": "My nice Team"
+		},
+		{
+			"notificationType": "contact",
+			"contactID": "147bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"contactName": "My nice Contact"
+		}
+	],
+	"createdDate": "2020-11-15T14:05:36Z",
+	"updatedDate": "2020-11-15T15:18:12Z"
+}

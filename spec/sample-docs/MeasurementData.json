@@ -1,0 +1,57 @@
+{
+	"_id": "15958cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "measurementData",
+	"partitionKey": "Same as _id",
+	"pointOfServiceID": "e478878b-56f2-495a-ac45-9b3e5095ef76",
+	"pointOfServiceName": "EV Charger S53 ABB",
+	"merchantID": "ddc5e656-425e-4ab9-8b75-1053f8191af0",
+	"merchantName": "My company",
+	"businessUnitID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"siteName": "Stockholm Office",
+	"zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"zoneName": "Zone Upper floor",
+	"componentID": "e478878b-56f2-495a-ac45-9b3e5095ef76",
+	"posSessionID": "e478878b-56f2-495a-ac45-9b3e5095ef76",
+	"dayOfWeek": "mo",
+	"measurementDate": "2022-06-18T14:05:36Z",
+	"measurementValues": {
+		"SoC": {
+			"location": "EV",
+			"format": "Raw",
+			"context": "Sample.Periodic",
+			"measurand": "SoC",
+			"unit": "Percent",
+			"value": 32,
+			"phase": "L3"
+		},
+		"Temperature": {
+			"location": "Body",
+			"format": "Raw",
+			"context": "Sample.Periodic",
+			"measurand": "Temperature",
+			"unit": "Celsius",
+			"value": 39,
+			"phase": "L3"
+		},
+		"Current.Import": {
+			"location": "Outlet",
+			"format": "Raw",
+			"context": "Sample.Periodic",
+			"measurand": "Current.Import",
+			"unit": "A",
+			"value": 200
+		},
+		"Voltage": {
+			"location": "Outlet",
+			"format": "Raw",
+			"context": "Sample.Periodic",
+			"measurand": "Voltage",
+			"unit": "V",
+			"value": 409
+		}
+	},
+	"ttl": 500,
+	"createdDate": "2022-06-18T14:05:36Z",
+	"updatedDate": "2022-06-18T15:18:12Z"
+}

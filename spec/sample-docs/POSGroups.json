@@ -1,0 +1,109 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "posGroups",
+	 "partitionKey": "Same as the _id",
+	 "posGroupName": "Name of the group",
+	 "posGroupDescription": "Some description",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "openHours": [
+		{
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours",
+			 "priority": 1
+		}
+	],
+	 "productsShop": [
+		{
+			 "productGroupID": "67c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "productGroupName": "Shop 1",
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours",
+			 "priority": 1,
+			 "actions": [
+				{
+					 "actionCode": "openDoor2",
+					 "actionName": {
+						 "sv-SE": {
+							 "text": "Action Name in some language"
+						},
+						 "en-US": {
+							 "text": "Action Name in some language"
+						}
+					},
+					 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+					 "pointOfServiceName": "Door 2",
+					 "actionParameters": {
+						 "timerSeconds": {
+							 "name": "Timer value in seconds",
+							 "type": "decimal",
+							 "value": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			 "productGroupID": "77c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "productGroupName": "Shop 2",
+			 "scheduleID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Lunch time",
+			 "priority": 2
+		}
+	],
+	 "productsRedeem": [
+		{
+			 "productGroupID": "67c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "productGroupName": "Shop 1",
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours",
+			 "priority": 1,
+			 "actions": [
+				{
+					 "actionCode": "openDoor2",
+					 "actionName": {
+						 "sv-SE": {
+							 "text": "Action Name in some language"
+						},
+						 "en-US": {
+							 "text": "Action Name in some language"
+						}
+					},
+					 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+					 "pointOfServiceName": "Door 2",
+					 "actionParameters": {
+						 "timerSeconds": {
+							 "name": "Timer value in seconds",
+							 "type": "decimal",
+							 "value": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			 "productGroupID": "77c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "productGroupName": "Shop 2",
+			 "scheduleID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Lunch time",
+			 "priority": 2
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

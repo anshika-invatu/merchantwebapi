@@ -1,0 +1,59 @@
+{
+    "_id": "ac969336-cd73-4cad-937f-524a52835e56",
+    "docType": "components",
+    "partitionKey": "ac969336-cd73-4cad-937f-524a52835e56",
+    "parentComponentID": "",
+    "pointOfServiceID": "44309f02-34c9-4c80-9b19-7d97e57a4276",
+    "merchantID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+    "alternateID": "4534ad5f-45be-428b-bfd0-fa489dda932d",
+    "componentName": {
+        "sv-SE": {
+            "text": "EVSE 4534ad5f-45be-428b-bfd0-fa489dda932d"
+        },
+        "en-US": {
+            "text": "EVSE 4534ad5f-45be-428b-bfd0-fa489dda932d"
+        }
+    },
+    "componentDescription": {
+        "sv-SE": {
+            "text": "EVSE"
+        },
+        "en-US": {
+            "text": "EVSE"
+        }
+    },
+    "componentTypeID": "4430e2d1-c859-4dbe-9035-2a27bb333cf5",
+    "componentTypeCode": "evse",
+    "componentTypeName": {
+        "sv-SE": {
+            "text": "EVSE"
+        },
+        "en-US": {
+            "text": "EVSE"
+        }
+    },
+    "componentCode": "evse1",
+    "iconImageURL": "https://media..com/vendingbin.png",
+    "statusCode": "CHARGING",
+    "statusReason": "",
+    "statusUpdatedDate": "2021-07-05T12:10:04.604Z",
+    "conditionCode": "clean",
+    "conditionUpdatedDate": "2021-07-05T12:10:04.604Z",
+    "isEnabledForSale": true,
+    "isWheelchairAccessible": true,
+    "evse": {
+        "evseNumber": 1,
+        "evseID": "BE*BEC*E041503003"
+    },
+    "defaultProduct": {
+        "productID": "",
+        "productName": ""
+    },
+    "publicPriceInfo": "",
+    "createdDate": {
+        "$date": "2021-07-03T06:44:55.635Z"
+    },
+    "updatedDate": {
+        "$date": "2021-07-05T12:10:04.623Z"
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "contacts",
+	"partitionKey": "Same as the _id",
+	"merchantID": "2ee58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"contactName": "Name of the group",
+	"contactDescription": "Some description",
+	"contactImageURL": "https://media.vourity.com/product.svg",
+	"isEnabled": true,
+	"title": "Engineer",
+	"city": "Stockholm",
+	"countryCode": "SE",
+	"contactMethods": [
+		{
+			"contactMethodType": "sms",
+			"isEnabled": true,
+			"mobilePhone": "+46701234567890"
+		},
+		{
+			"contactMethodType": "email",
+			"isEnabled": true,
+			"email": "test.user@vourity.com"
+		}
+	],
+	"teamMemberships": [
+		{
+			"teamID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			"teamName": "Site engineers",
+			"teamImageURL": "https://media.vourity.com/product.svg",
+			"isEnabled": true
+		}
+	],
+	"createdDate": "2023-01-14T14:05:36Z",
+	"updatedDate": "2023-01-14T15:18:12Z"
+}

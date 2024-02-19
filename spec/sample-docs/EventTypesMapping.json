@@ -1,0 +1,12 @@
+{
+	"_id": "15958cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "eventTypesMapping",
+	"partitionKey": "Same as _id",
+	"merchantID": "b019ff83-f559-4dca-80df-cf90f165e9cd",
+	"errorCode": "ServiceFail",
+	"vendorID": "kempower",
+	"eventTypeCode": "posHighTemperature",
+	"severity": "critical,error,warning,information",
+	"createdDate": "2023-03-28T14:05:36Z",
+	"updatedDate": "2023-03-28T14:05:36Z"
+}

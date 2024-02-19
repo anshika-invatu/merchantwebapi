@@ -1,0 +1,44 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "sites",
+	 "partitionKey": "Same as the _id",
+	 "ownerMerchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "siteName": "Name of the Site",
+	 "siteDescription": "Some description",
+	 "businessUnitID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "iconImageURL": "https://media.vourity.com/blueburger1.png",
+	 "mainImageURL": "https://media.vourity.com/bigburger.png",
+	 "countryCode": "SE",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "address": [
+		{
+			 "streetRow1": "Mega street 5",
+			 "streetRow2": "Mega street 5",
+			 "zip": "12233JJHH",
+			 "city": "Stockholm",
+			 "state": "NYC",
+			 "country": "Sweden",
+			 "countryCode": "SE"
+		}
+	],
+	 "phone": "+461234567890",
+	 "email": "test@vourity.com",
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

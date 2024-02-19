@@ -1,0 +1,72 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "merchantstatisticsmonthly",
+	 "partitionKey": "df23sdf",
+	 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "salesCurrency": "EUR",
+	 "statisticsYear": "2018-01-01T00:00:000Z",
+	 "monthsOfTheYear": {
+		 "1": {
+			 "salesAmount": 1232,
+			 "salesTransactions": 112,
+			 "redemptions": 66
+		},
+		 "2": {
+			 "salesAmount": 1895,
+			 "salesTransactions": 1108,
+			 "redemptions": 496
+		},
+		 "3": {
+			 "salesAmount": 2301,
+			 "salesTransactions": 1121,
+			 "redemptions": 646
+		},
+		 "4": {
+			 "salesAmount": 23012,
+			 "salesTransactions": 11211,
+			 "redemptions": 6443
+		},
+		 "5": {
+			 "salesAmount": 2304,
+			 "salesTransactions": 12111,
+			 "redemptions": 486
+		},
+		 "6": {
+			 "salesAmount": 4789,
+			 "salesTransactions": 2658,
+			 "redemptions": 6985
+		},
+		 "7": {
+			 "salesAmount": 453,
+			 "salesTransactions": 23,
+			 "redemptions": 996
+		},
+		 "8": {
+			 "salesAmount": 789,
+			 "salesTransactions": 369,
+			 "redemptions": 479
+		},
+		 "9": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "10": {
+			 "salesAmount": 5230,
+			 "salesTransactions": 1221,
+			 "redemptions": 764
+		},
+		 "11": {
+			 "salesAmount": 139,
+			 "salesTransactions": 121,
+			 "redemptions": 11
+		},
+		 "12": {
+			 "salesAmount": 9658,
+			 "salesTransactions": 4785,
+			 "redemptions": 745
+		}
+	},
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

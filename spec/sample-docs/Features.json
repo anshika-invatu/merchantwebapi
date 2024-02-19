@@ -1,0 +1,34 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "features",
+	 "partitionKey": "Same as the _id",
+	 "featureCategory": "baseFee,simCard,moduleFee",
+	 "featureName": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "featureDescription": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "isEnabled": true,
+	 "iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+	 "featureProviderID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "featureProviderName": "Emnify",
+	 "modules": [
+		{
+			 "moduleCode": "redeemVoucher",
+			 "moduleID": "3d813615-01e9-4403-8132-e50dec5b608d"
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

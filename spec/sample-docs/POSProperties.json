@@ -1,0 +1,72 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "posProperties",
+	"partitionKey": "Same as the _id",
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"pointOfServiceID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"pointOfServiceName": "My POS 1",
+	"posPropertyTemplateID": "",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"properties": {
+		"actualValues": {
+			"key1": {
+				"isReadOnly": false,
+				"keyValue": "some value",
+				"updatedDate": "2021-08-10T15:18:12Z",
+				"componentID": "674b917c-9971-4ec4-89b5-0ab80f2607ae"
+			},
+			"key2": {
+				"isReadOnly": false,
+				"keyValue": "some value",
+				"updatedDate": "2021-08-10T15:18:12Z",
+				"componentID": ""
+			},
+			"key3": {
+				"isReadOnly": true,
+				"keyValue": "some value",
+				"updatedDate": "2021-08-10T15:18:12Z"
+			}
+		},
+		"targetValues": {
+			"key1": {
+				"isReadOnly": false,
+				"keyValue": "some value",
+				"updatedDate": "2021-08-10T15:18:12Z"
+			},
+			"key2": {
+				"isReadOnly": false,
+				"keyValue": "some value",
+				"updatedDate": "2021-08-10T15:18:12Z",
+				"componentID": "674b917c-9971-4ec4-89b5-0ab80f2607ae"
+			},
+			"key3": {
+				"isReadOnly": true,
+				"keyValue": "some value",
+				"updatedDate": "2021-08-10T15:18:12Z"
+			},
+			"key4": {
+				"isReadOnly": true,
+				"keyValue": "some value",
+				"updatedDate": "2021-08-10T15:18:12Z"
+			}
+		}
+	},
+	"createdDate": "2021-08-10T14:05:36Z",
+	"updatedDate": "2021-08-10T15:18:12Z"
+}

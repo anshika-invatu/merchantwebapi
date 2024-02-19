@@ -1,0 +1,117 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "merchantPricePlan",
+	 "partitionKey": "2cb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "merchantID": "2cb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "pricePlanName": "Basic",
+	 "pricePlanDescription": "Valid for up tp 250 active Vouchers",
+	 "validFromDate": "2017-10-16T14:05:36Z",
+	 "validToDate": "2019-10-16T14:05:36Z",
+	 "isEnabled": true,
+	 "isTrialPlan": false,
+	 "trialPeriodDays": 30,
+	 "nextStepPricePlan": "2bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "currency": "SEK",
+	 "country": "SE",
+	 "pricePlanCode": "basic",
+	 "languageCode": "sv-SE",
+	 "languageName": "Swedish",
+	 "feeStartupAmount": 0,
+	 "feeMonthlySubscriptionBaseAmount": 99.00,
+	 "feeMonthlySubscriptionExtraPerBusinessUnitAmount": 15.00,
+	 "feeMonthlySubscriptionExtraPerUserUnitAmount": 18.50,
+	 "monthlySubscriptionTransactionsCounter": [
+		{
+			 "feeMonthlySubscriptionAmount": 10.00,
+			 "transactionsCountUpTo": 100
+		},
+		{
+			 "feeMonthlySubscriptionAmount": 20,
+			 "transactionsCountUpTo": 200
+		}
+	],
+	 "monthlySubscriptionActiveVouchersCounter": [
+		{
+			 "feeMonthlySubscriptionAmount": 10.00,
+			 "vouchersCountUpTo": 100
+		},
+		{
+			 "feeMonthlySubscriptionAmount": 20,
+			 "vouchersCountUpTo": 200
+		}
+	],
+	 "feePerTransactionPercent": 4.75,
+	 "feePerTransactionAmount": 2.01,
+	 "feePerZeroValueVoucher": 0.25,
+	 "feeMonthlyPerBusinessUnit": 0.25,
+	 "feeMonthlyPerUser": 0,
+	 "feeMonthlyPerPartnerNetwork": 99,
+	 "feeMonthlyPerWebshop": 0.25,
+	 "feeMonthlyPerMobilePaymentCode": 0.25,
+	 "feeMonthlyPerProduct": 19,
+	 "numberOfBusinessUnitsIncluded": 5,
+	 "numberOfUsersIncluded": 5,
+	 "numberOfPartnerNetworksIncluded": 5,
+	 "numberOfWebshopsIncluded": 5,
+	 "numberOfMobilePaymentCodesIncluded": 5,
+	 "numberOfProductsIncluded": 100,
+	 "payoutForExpiredVouchersPercent": 80.00,
+	 "vatPercent": 25.00,
+	 "vatClass": "VAT1",
+	 "pspPricePlanID": "plan_CbvZlrtet27kcB",
+	 "pspZeroValueVoucherPlanID": "plan_F9MWHuFnxZGpCe",
+	 "pspMicroShopPlanID": "plan_F9MWHuFnxZGpCe",
+	 "pspExpressShopPlanID": "plan_F9MWHuFnxZGpCe",
+	 "pointOfServiceTypePrices": [
+		{
+			 "pointOfServiceTypeID": "9cc075c0-4cfe-429f-9b6a-b5cbfdd18d44",
+			 "pointOfServiceTypeName": "Vourity POS 1",
+			 "pointOfServiceTypeDescription": "Vourity POS 1 description",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "feeStartupAmount": 3000,
+			 "feeMonthlySubscriptionAmount": 99.00
+		},
+		{
+			 "pointOfServiceTypeID": "f6ff06ad-4041-4a4c-888c-d8d17cce6c76",
+			 "pointOfServiceTypeName": "Vourity POS 2",
+			 "pointOfServiceTypeDescription": "Vourity POS 2 description",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "feeStartupAmount": 3000,
+			 "feeMonthlySubscriptionAmount": 99.00
+		},
+		{
+			 "pointOfServiceTypeID": "25f15871-e651-4cc8-a786-36eba646d104",
+			 "pointOfServiceTypeName": "Vourity Box 1",
+			 "pointOfServiceTypeDescription": "Vourity Box 1 description",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "feeStartupAmount": 3000,
+			 "feeMonthlySubscriptionAmount": 99.00
+		},
+		{
+			 "pointOfServiceTypeID": "977ce018-7e91-44a6-81ca-3335d677ccd6",
+			 "pointOfServiceTypeName": "Vourity Box 2",
+			 "pointOfServiceTypeDescription": "Vourity Box 2 description",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "feeStartupAmount": 3000,
+			 "feeMonthlySubscriptionAmount": 99.00
+		},
+		{
+			 "pointOfServiceTypeID": "7fb981d2-9fdb-4a11-9c50-e1dfb03f33dc",
+			 "pointOfServiceTypeName": "Vourity Display",
+			 "pointOfServiceTypeDescription": "Vourity Display description",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "feeStartupAmount": 3000,
+			 "feeMonthlySubscriptionAmount": 99.00
+		},
+		{
+			 "pointOfServiceTypeID": "85aaee78-05a4-42db-97e7-5b9b026bf187",
+			 "pointOfServiceTypeName": "External POS",
+			 "pointOfServiceTypeDescription": "External integrated POS",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "feeStartupAmount": 3000,
+			 "feeMonthlySubscriptionAmount": 99.00
+		}
+	],
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

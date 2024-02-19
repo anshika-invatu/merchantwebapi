@@ -1,0 +1,166 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "customers",
+	 "partitionKey": "Same as the _id",
+	 "merchantID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "merchantName": "My company",
+	 "parentCustomerID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "customerType": "company,person",
+	 "customerName": "Vasamuseet",
+	 "customerDescription": "Nice museeum",
+	 "currency": "SEK",
+	 "countryCode": "SE",
+	 "isEnabled": true,
+	 "isCanceled": false,
+	 "validFromDate": "2020-10-16T00:00:00Z",
+	 "validToDate": "2021-10-16T23:59:59Z",
+	 "email": "test.user@vourity.com",
+	 "mobilePhone": "+46701234567890",
+	 "company": {
+		 "companyRegistrationNumber": "12231323-234234",
+		 "vatNumber": "SE1239812391273-33AAJ",
+		 "webURL": "https://vourity.com"
+	},
+	 "person": {
+		 "walletID": "45658cfa-063d-4f5c-be5d-b90cfb64d1d6",
+		 "firstName": "Mark",
+		 "lastName": "Twain",
+		 "languageCode": "sv-SE",
+		 "languageName": "Swedish"
+	},
+	 "knowYourCustomer": {
+		 "isKycCheckDone": true,
+		 "kycCheckDoneByUserID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+		 "kycCheckStatus": "approved,denied",
+		 "lastKycCheckDate": "2020-04-14T14:05:36Z",
+		 "isVerifiedEmail": true,
+		 "isverifiedMobilePhone": true
+	},
+	 "billing": {
+		 "creditLimit": 10000,
+		 "paymentTermDays": 30,
+		 "billingChannel": "email,post,creditcard",
+		 "billingAddressType": "billing"
+	},
+	 "contacts": [
+		{
+			 "contactNo": 1,
+			 "firstName": "Mark",
+			 "lastName": "Twain",
+			 "title": "CEO",
+			 "city": "Stockholm",
+			 "country": "Sweden",
+			 "countryCode": "SE",
+			 "email": "test.user@vourity.com",
+			 "phone": "+46701234567890"
+		}
+	],
+	 "addresses": [
+		{
+			 "addressNo": 1,
+			 "addressType": "office",
+			 "streetRow1": "Mega street 5",
+			 "streetRow2": "Mega street 5",
+			 "zip": "12233JJHH",
+			 "city": "Stockholm",
+			 "state": "NYC",
+			 "country": "Sweden",
+			 "countryCode": "SE",
+			 "email": "test.user@vourity.com",
+			 "phone": "+46701234567890",
+			 "latitude": 59.123456789,
+			 "longitude": -18.123456789,
+			 "description": "You find the door next to the yellow building. Go to the back side and show your Voucher"
+		},
+		{
+			 "addressNo": 2,
+			 "addressType": "delivery",
+			 "streetRow1": "Mega street 5",
+			 "streetRow2": "Mega street 5",
+			 "zip": "12233JJHH",
+			 "city": "Stockholm",
+			 "state": "NYC",
+			 "country": "Sweden",
+			 "countryCode": "SE",
+			 "email": "test.user@vourity.com",
+			 "phone": "+46701234567890",
+			 "latitude": 59.123456789,
+			 "longitude": -18.123456789,
+			 "description": "You find the door next to the yellow building. Go to the back side and show your Voucher"
+		},
+		{
+			 "addressNo": 3,
+			 "addressType": "billing",
+			 "streetRow1": "Mega street 5",
+			 "streetRow2": "Mega street 5",
+			 "zip": "12233JJHH",
+			 "city": "Stockholm",
+			 "state": "NYC",
+			 "country": "Sweden",
+			 "countryCode": "SE",
+			 "email": "test.user@vourity.com",
+			 "phone": "+46701234567890",
+			 "latitude": 59.123456789,
+			 "longitude": -18.123456789,
+			 "description": "You find the door next to the yellow building. Go to the back side and show your Voucher"
+		}
+	],
+	 "logoImageURL": "https://media.vourity.com/product.svg",
+	 "imageURL": "https://media.vourity.com/product.svg",
+	 "tags": [
+		"home",
+		"green"
+	],
+	 "sendNotifications": {
+		 "viaEmail": true,
+		 "viaSMS": false,
+		 "viaPush": false
+	},
+	 "consents": [
+		{
+			 "consentName": "Terms and Conditions",
+			 "consentKey": "TERMSCOND",
+			 "documentVersion": "1.0 / 2018-05-16",
+			 "documentURL": "https://media.vourity.com/documents/tcv1.pdf",
+			 "approvalDate": "2020-10-16T14:05:36Z",
+			 "isApproved": true
+		},
+		{
+			 "consentName": "Send marketing e-mails",
+			 "consentKey": "MARKETEMAIL",
+			 "documentVersion": 2.3,
+			 "documentURL": "None",
+			 "approvalDate": "2020-10-16T14:05:36Z",
+			 "isApproved": true
+		}
+	],
+	 "rating": 4.6,
+	 "totalRatingValue": 516,
+	 "numberofRatings": 112,
+	 "ratingDetails": {
+		 "numberofRatings1": 64,
+		 "numberofRatings2": 12,
+		 "numberofRatings3": 78,
+		 "numberofRatings4": 37,
+		 "numberofRatings5": 562
+	},
+	 "statistics": {
+		 "firstPurchaseDate": "2020-10-14T14:05:36Z",
+		 "lastPurchaseDate": "2020-10-14T14:05:36Z",
+		 "lastPurchaseAmount": 237.36,
+		 "lastRefundDate": "2020-10-14T14:05:36Z",
+		 "lastRefundAmount": 17.78,
+		 "totalNumberOfPurchases": 50,
+		 "totalNumberOfRefunds": 1,
+		 "totalPurchaseAmount": 123.56,
+		 "totalRefundAmount": 12
+	},
+	 "rfmData": {
+		 "rfmScore": 10,
+		 "recency": 1,
+		 "frequency": 2,
+		 "monetary": 3
+	},
+	 "createdDate": "2020-10-14T14:05:36Z",
+	 "updatedDate": "2020-10-14T15:18:12Z"
+}

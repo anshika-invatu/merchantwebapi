@@ -1,0 +1,72 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "webshop",
+	 "ownerMerchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "isVisible": true,
+	 "isOpenForSale": true,
+	 "notOpenForSaleText": "The shop is closed. Plese come back later",
+	 "isInMaintenanceMode": false,
+	 "maintenanceModeText": "Sorry for the inconvenience we are doing some maintenance on our shop. Come back soon.",
+	 "webShopToken": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+	 "webShopTitle": "Starstruck Coffee Voucher Shop",
+	 "webShopDescription": "Here you can select your SPA gift-cards and send them to friends and family.",
+	 "logoImageURL": "https://media.vourity.com/logoburger.png",
+	 "mainImageURL": "https://media.vourity.com/bigburger.png",
+	 "webShopContact": {
+		 "contactCompany": "Relaxing SPA",
+		 "contactPhone": "+46213123213",
+		 "contactEmail": "+sales@company.com",
+		 "contactStreet1": "Megastreet 5",
+		 "contactStreet2": "PO Box 25",
+		 "contactZipCode": "IN-12333",
+		 "contactCity": "Bangalore",
+		 "contactState": "The big one",
+		 "contactCountry": "India"
+	},
+	 "products": [
+		{
+			 "productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			 "productEAN": "1234567890ADFFF",
+			 "productGCN": "1234567890ADFFF234324",
+			 "productName": "The blue product",
+			 "productDescription": "Some description of the Product",
+			 "conditions": "Some text about special conditions in text about how to use the voucher",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "voucherType": "giftvoucher,eventticket,coupon,destiationpass,membercard,exchangevoucher,loyaltypoints",
+			 "isEnabledForSale": true,
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			},
+			 "salesPrice": 123456789.00,
+			 "vatPercent": 25.00,
+			 "vatAmount": 2.35,
+			 "currency": "SEK",
+			 "salesPeriodStart": "2017-10-16T00:00:00Z",
+			 "salesPeriodEnd": "2017-10-16T00:00:00Z"
+		},
+		{
+			 "productID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "productEAN": "1234567890ADFFF",
+			 "productGCN": "1234567890ADFFF234324",
+			 "productName": "The green product",
+			 "productDescription": "Some description of the Product",
+			 "conditions": "Some text about special conditions in text about how to use the voucher",
+			 "imageURL": "https://media.vourity.com/greenburger.png",
+			 "voucherType": "giftvoucher,eventticket,coupon,destiationpass,membercard,exchangevoucher,loyaltypoints",
+			 "isEnabledForSale": true,
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			},
+			 "salesPrice": 123456789.00,
+			 "vatPercent": 25.00,
+			 "vatAmount": 2.35,
+			 "currency": "SEK",
+			 "salesPeriodStart": "2017-10-16T00:00:00Z",
+			 "salesPeriodEnd": "2017-10-16T00:00:00Z"
+		}
+	],
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

@@ -1,0 +1,36 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "mobilePaymentCode",
+	 "partitionKey": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "productID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "productName": "Yellow product",
+	 "webshopID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "webshopName": "Yellow product",
+	 "isEnabledForSale": true,
+	 "issueVouchers": true,
+	 "doActions": false,
+	 "dynamicAmountAllowed": false,
+	 "useMerchantPaymentProviderAccount": false,
+	 "paymentProviderID": "ad8094bc-a080-4b18-9954-207a4423296f",
+	 "paymentProvider": "Swish",
+	 "paymentProviderType": "mobile",
+	 "paymentProviderAccount": "+461212312332",
+	 "actions": [
+		{
+			 "actionCode": "openDoor",
+			 "actionName": "Open door",
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			 "pointofServiceName": "Main door"
+		},
+		{
+			 "actionCode": "beep",
+			 "actionName": "Beep the buzzer",
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			 "pointofServiceName": "Main door"
+		}
+	],
+	 "createdDate": "2019-01-16T14:05:36Z",
+	 "updatedDate": "2019-01-16T15:18:12Z"
+}

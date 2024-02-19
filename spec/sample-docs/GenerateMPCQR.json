@@ -1,0 +1,38 @@
+{
+    "format": "png",
+    "size": 300,
+    "message": {
+        "allOf": [{
+            "$ref": "#/definitions/editable"
+        }
+        ],
+        "value": "MPC:be9be242-cfcf-42ed-ac17-c6d86020548a"
+    },
+     "amount":{  
+        "allOf": [{
+            "$ref": "#/definitions/editable"
+        }
+        ],
+        "value":"1456",
+        "currency":"SEK"
+     },
+     "payee":{
+     "value":9838689753
+     },
+     "currency":{
+         "value":"123"
+     },
+     "name":{
+        "value":"QuickshopQRCode.png"
+    },
+     "definitions": {
+        "editable": {
+          "properties": {
+            "editable": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        }
+      }
+}

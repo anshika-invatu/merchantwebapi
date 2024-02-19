@@ -1,0 +1,206 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "components",
+	 "partitionKey": "Same as the _id",
+	 "parentcomponentID": "33358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "pointOfServiceID": "6380e2d1-c859-4dbe-9035-2a27bb333cf5",
+	 "alternateID": "A101",
+	 "componentName": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "componentDescription": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "componentTypeID": "4430e2d1-c859-4dbe-9035-2a27bb333cf5",
+	 "componentTypeCode": "bin,evse,relay,qrscanner,sensor,mdbcashless",
+	 "componentTypeName": "Bin for storing products",
+	 "componentRoleCode": "redemption,access,checkin,checkout,delivery,collect,return",
+	 "iconImageURL": "https://media.vourity.com/vendingbin.png",
+	 "statusCode": "available",
+	 "statusReason": "Charging ended",
+	 "statusUpdatedDate": "2020-04-14T15:18:12Z",
+	 "connectionStateCode": "connected",
+	 "connectionStateReason": "Device rebooted",
+	 "connectionStateUpdatedDate": "2020-04-14T15:18:12Z",
+	 "conditionCode": "clean",
+	 "conditionUpdatedDate": "2020-04-14T15:18:12Z",
+	 "accessDirection": "in,out",
+	 "isEnabledForSale": true,
+	 "webShopID": "67c1938e-88a1-4141-b0bc-4c280a7379b6",
+	 "webShopName": "Shop 1",
+	 "isWheelchairAccessible": true,
+	 "bin": {
+		 "binID": "A101",
+		 "actualFillLevel": 125,
+		 "actualFillLevelPercent": 73,
+		 "targetFillLevel": 218,
+		 "fillLevelunit": "bottles",
+		 "minFillLevel": 0,
+		 "maxFillLevel": 500,
+		 "orderMoreLowLimit": 20,
+		 "objectTypeID": "5560e2d1-c859-4dbe-9035-2a27bb333cf5",
+		 "objectTypeCode": "product,resource,order,shipment",
+		 "objectID": "4430e2d1-c859-4dbe-9035-2a27bb333cf5",
+		 "objectName": {
+			 "sv-SE": {
+				 "text": "html encode ??? This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		},
+		 "objectIconImageURL": "https://media.vourity.com/cocacola.png",
+		 "objectImageURL": "https://media.vourity.com/cocacolabig.png",
+		 "bestBeforeDate": "2020-04-14T15:18:12Z",
+		 "volume": 100.5,
+		 "volumeUnit": "cm3",
+		 "width": 100,
+		 "widthUnit": "cm",
+		 "length": 200,
+		 "lengthUnit": "cm",
+		 "depth": 30,
+		 "depthUnit": "cm",
+		 "weightLimit": 30,
+		 "weightLimitUnit": "Kg",
+		 "isHeatedStorage": false,
+		 "isColdStorage": true,
+		 "isFreezeStorage": false,
+		 "isWheelchairAccessible": true,
+		 "lastFillDate": "2020-04-14T15:18:12Z"
+	},
+	 "properties": {
+		 "temperature": {
+			 "actualValue": "The value",
+			 "targetValue": "The value",
+			 "propertyUnit": "C",
+			 "isReadOnly": true,
+			 "dataType": "decimal,integer,string,boolean,datetime,uri",
+			 "minValue": 0,
+			 "maxValue": 250,
+			 "propertyName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "This is the text in some language"
+				}
+			},
+			 "iconImageURL": "https://media.vourity.com/vendingbin.png"
+		},
+		 "humidity": {
+			 "actualValue": "The value",
+			 "targetValue": "The value",
+			 "propertyUnit": "percent",
+			 "isReadOnly": false,
+			 "dataType": "decimal",
+			 "minValue": 0,
+			 "maxValue": 100,
+			 "propertyName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "This is the text in some language"
+				}
+			},
+			 "iconImageURL": "https://media.vourity.com/vendingbin.png"
+		}
+	},
+	 "commands": {
+		 "startCharging": {
+			 "commandMode": "on,off,pulses,toggle,set",
+			 "commandValue": 3,
+			 "commandValueUnit": "kW,pulses,liters,minutes",
+			 "commandDurationTime": 500,
+			 "commandDurationTimeUnit": "milliseconds",
+			 "isDefault": true,
+			 "isPublic": true,
+			 "isEnabled": true,
+			 "dataType": "decimal,integer,string,boolean,datetime,uri",
+			 "minValue": 0,
+			 "maxValue": 250,
+			 "commandName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "This is the text in some language"
+				}
+			},
+			 "iconImageURL": "https://media.vourity.com/vendingbin.png"
+		},
+		 "openDoor": {
+			 "commandMode": "on,off,pulses,toggle,set",
+			 "commandValue": 1,
+			 "commandValueUnit": "kW,pulses,liters,minutes",
+			 "commandDurationTime": 1500,
+			 "commandDurationTimeUnit": "seconds",
+			 "isDefault": false,
+			 "isPublic": true,
+			 "isEnabled": true,
+			 "dataType": "decimal,integer,string,boolean,datetime,uri",
+			 "minValue": 0,
+			 "maxValue": 100,
+			 "commandName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "This is the text in some language"
+				}
+			},
+			 "iconImageURL": "https://media.vourity.com/vendingbin.png"
+		}
+	},
+	 "texts": {
+		 "publicLabel": {
+			 "sv-SE": {
+				 "text": "html encode ??? This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		}
+	},
+	 "hardwareConfig": {
+		 "portTypeID": "4430e2d1-c859-4dbe-9035-2a27bb333cf5",
+		 "portTypeCode": "output,input,mdb,usb,modbus,webhook,serial",
+		 "portTypeName": "Bin for storing products",
+		 "portCode": "localio,mdb,usb1,usb2,serial1,serial2",
+		 "portName": "USB Port 1",
+		 "address": "XBC.123",
+		 "pollInterval": 500,
+		 "auth": {
+			 "username": "dsfsdfsdfsdfsdf",
+			 "password": "dfsdfsdfdsfdsf",
+			 "apikey": "dfsdfsdfdsfdsf",
+			 "x509Thumbprint": {
+				 "primaryThumbprint": null,
+				 "secondaryThumbprint": null
+			}
+		}
+	},
+	 "tags": {
+		 "sometag": 123,
+		 "deploymentLocation": {
+			 "building": 43,
+			 "floor": 1
+		}
+	},
+	 "metaData": {
+		 "serialNumber": "dfsdfsd",
+		 "firmwareVersion": "werewr23234"
+	},
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

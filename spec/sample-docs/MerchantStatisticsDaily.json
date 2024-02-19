@@ -1,0 +1,167 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "merchantstatisticsdaily",
+	 "partitionKey": "df23sdf",
+	 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "statisticsMonth": "2018-10-01T00:00:000Z",
+	 "salesCurrency": "EUR",
+	 "daysOfTheMonth": {
+		 "1": {
+			 "salesAmount": 123,
+			 "salesTransactions": 12,
+			 "redemptions": 6
+		},
+		 "2": {
+			 "salesAmount": 189,
+			 "salesTransactions": 108,
+			 "redemptions": 49
+		},
+		 "3": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "4": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "5": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "6": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "7": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "8": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "9": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "10": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "11": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "12": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "13": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "14": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "15": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "16": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "17": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "18": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "19": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "20": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "21": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "22": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "23": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "24": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "25": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "26": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "27": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "28": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "29": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "30": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		},
+		 "31": {
+			 "salesAmount": 230,
+			 "salesTransactions": 121,
+			 "redemptions": 64
+		}
+	},
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

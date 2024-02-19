@@ -1,0 +1,33 @@
+{
+	"_id": "1d5c4f0b-9110-4667-966f-548f7b7b19a9",
+	"docType": "manufacturerModels",
+	"partitionKey": "1d5c4f0b-9110-4667-966f-548f7b7b19a9",
+	"manufacturerID": "1d5c4f0b-9110-4667-966f-548f7b7b19a9",
+	"manufacturerName": {
+		"sv-SE": {
+			"text": "Vourity"
+		},
+		"en-US": {
+			"text": "Vourity"
+		}
+	},
+	"modelName": {
+		"sv-SE": {
+			"text": "Vourity"
+		},
+		"en-US": {
+			"text": "Vourity"
+		}
+	},
+	"modelDescription": {
+		"sv-SE": {
+			"text": "Vourity"
+		},
+		"en-US": {
+			"text": "Vourity"
+		}
+	},
+	"modelImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_coffee.svg",
+	"createdDate": "2021-04-05T14:05:36Z",
+	"updatedDate": "2021-04-05T15:18:12Z"
+}

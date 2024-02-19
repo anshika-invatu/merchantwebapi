@@ -1,0 +1,44 @@
+{
+	 "_id": "23458cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "merchantPayoutTransactions",
+	 "partitionKey": "df23sdf",
+	 "merchantName": "Starstruck Coffee AB",
+	 "merchantID": "56758cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "countryCode": "SE",
+	 "currency": "SEK",
+	 "payoutTransactions": [
+		{
+			 "payoutTransactionID": "ABC58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "bank": "SEB",
+			 "country": "SE",
+			 "currency": "SEK",
+			 "accountType": "bankgiro",
+			 "account": "5768-1234",
+			 "bic": "ESSTTEHH",
+			 "amount": 123456789.12,
+			 "referenceText": "Payout from Vourity",
+			 "transactionStatus": "Pending,Processing,Successful,Failed,Rejected,Canceled",
+			 "transactionRequestDate": "2017-10-16T14:05:36Z",
+			 "transactionCompletedDate": "2017-10-16T14:05:36Z",
+			 "transactionStatusDate": "2017-10-16T14:05:36Z"
+		},
+		{
+			 "payoutTransactionID": "DEF58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "bank": "SEB",
+			 "country": "SE",
+			 "currency": "SEK",
+			 "accountType": "iban",
+			 "account": "4551212323JJJ",
+			 "bic": "ESSTTEHH",
+			 "amount": 123456789.12,
+			 "referenceText": "Payout from Vourity",
+			 "transactionStatus": "Pending,Processing,Successful,Failed,Rejected,Canceled",
+			 "transactionRequestDate": "2017-10-16T14:05:36Z",
+			 "transactionCompletedDate": "2017-10-16T14:05:36Z",
+			 "transactionStatusDate": "2017-10-16T14:05:36Z"
+		}
+	],
+	 "notes": "The file is ok",
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

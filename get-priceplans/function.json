@@ -1,0 +1,20 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "authLevel": "anonymous",
+      "methods": [
+        "GET"
+      ],
+      "route": "{apiVersion}/priceplans"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}

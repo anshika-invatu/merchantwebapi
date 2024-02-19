@@ -1,0 +1,78 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "pointOfInterest",
+	"partitionKey": "Same as the _id",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"poiName": "html encode ??? This is the text in some language",
+	"poiDescription": "html encode ??? This is the text in some language",
+	"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"merchantName": "Turistbutiken i Malmö",
+	"brandID": "684b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"brandName": "Coca Cola",
+	"brandLogoImageURL": "http://media.vourity.com/logoburger.png",
+	"isEnabled": true,
+	"imageURL": "http://media.vourity.com/logoburger.png",
+	"iconImageURL": "http://media.vourity.com/logoburger.png",
+	"poiDescriptionLong": "Some looooong description of the Voucher",
+	"seoMetaTitle": "Some looooong description of the Voucher",
+	"seoMetaDescription": "Some looooong description of the Voucher",
+	"moreInfoURL": "http://vourity.com/products/nice-car.htm",
+	"siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"siteName": "Stockholm Office",
+	"zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"zoneName": "Zone Upper floor",
+	"categories": [
+		"gift certificates",
+		"do good"
+	],
+	"tags": [
+		"home",
+		"green"
+	],
+	"rating": 4.6,
+	"totalRatingValue": 516,
+	"numberofRatings": 112,
+	"ratingDetails": {
+		"numberofRatings1": 64,
+		"numberofRatings2": 12,
+		"numberofRatings3": 78,
+		"numberofRatings4": 37,
+		"numberofRatings5": 562
+	},
+	"location": {
+		"streetRow1": "Mega street 5",
+		"streetRow2": "Mega street 5",
+		"zip": "12233JJHH",
+		"city": "Stockholm",
+		"state": "NYC",
+		"country": "Sweden",
+		"countryCode": "SE",
+		"latitude": 59.123456789,
+		"longitude": -18.123456789
+	},
+	"linkedObjects": [
+		{
+			"linkedObjectType": "pos,resource,voucher,webshop",
+			"linkedObjectID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"linkedObjectName": "Rental site outside the big shop"
+		}
+	],
+	"createdDate": "2022-04-14T14:05:36Z",
+	"updatedDate": "2022-04-14T15:18:12Z"
+}

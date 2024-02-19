@@ -1,0 +1,51 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "workLog",
+	"partitionKey": "same as _id",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"workLogSubject": "Vasamuseet",
+	"workLogText": "Vasamuseet",
+	"languageCode": "sv-SE",
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"merchantName": "Vasamuseet",
+	"businessUnitID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"businessUnitName": "Vasamuseet",
+	"customerID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"customerName": "Vasamuseet",
+	"accessTokenID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"accessTokenName": "Vasamuseet",
+	"pointOfServiceID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"pointOfServiceName": "Vasamuseet",
+	"webShopID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"webShopTitle": "Vasamuseet",
+	"siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"siteName": "Stockholm Office",
+	"zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"zoneName": "Zone Upper floor",
+	"tags": [
+		"home",
+		"green"
+	],
+	"notes": "The customer is happy",
+	"updatedByUserID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"updatedByUserName": "Mark Twain",
+	"updatedByUserDate": "2021-01-08T14:05:36Z",
+	"createdDate": "2021-01-08T14:05:36Z",
+	"updatedDate": "2021-01-08T15:18:12Z"
+}

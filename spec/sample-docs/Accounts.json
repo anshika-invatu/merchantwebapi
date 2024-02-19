@@ -1,0 +1,74 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "accounts",
+	"partitionKey": "Same as the _id",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"payers": [
+		{
+			"customerID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"customerName": "Turistbutiken i Åre",
+			"roles": "owner",
+			"type": "customer"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "user",
+			"type": "merchant"
+		}
+	],
+	"payee": [
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A"
+		}
+	],
+	"accountName": "My account",
+	"accountDescription": "Description text",
+	"isEnabled": true,
+	"currency": "SEK",
+	"creditLimit": 10000,
+	"clearingRules": {
+		"clearingChannel": "file,email,webhook,integration,paymentProvider",
+		"clearingMode": "manual,realtime,interval,dayOfMonth",
+		"clearingIntervalDays": 30,
+		"clearingDayOfMonth": 20
+	},
+	"statistics": {
+		"firstPurchaseDate": "2020-10-14T14:05:36Z",
+		"lastPurchaseDate": "2020-10-14T14:05:36Z",
+		"lastPurchaseAmount": 237.36,
+		"lastRefundDate": "2020-10-14T14:05:36Z",
+		"lastRefundAmount": 17.78,
+		"totalNumberOfPurchases": 50,
+		"totalNumberOfRefunds": 1,
+		"totalPurchaseAmount": 123.56,
+		"totalRefundAmount": 12
+	},
+	"merchantReferences": {
+		"key1": "value1",
+		"key2": "value2"
+	},
+	"createdDate": "2020-12-14T14:05:36Z",
+	"updatedDate": "2020-12-14T15:18:12Z"
+}

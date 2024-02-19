@@ -1,0 +1,34 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "zones",
+	 "partitionKey": "Same as the _id",
+	 "ownerMerchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "zoneName": "Name of the Zone",
+	 "zoneDescription": "Some description",
+	 "siteID": "756bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "siteName": "Name of the Site",
+	 "iconImageURL": "https://media.vourity.com/blueburger1.png",
+	 "mainImageURL": "https://media.vourity.com/bigburger.png",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "isAntiPassBackEnabled": false,
+	 "antiPassBackTimer": 60,
+	 "antiPassBackAutoResetTimer": 3600,
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

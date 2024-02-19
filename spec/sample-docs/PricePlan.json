@@ -1,0 +1,47 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "pricePlan",
+	"pricePlanName": "Basic",
+	"pricePlanDescription": "Valid for up tp 250 active Vouchers",
+	"validFromDate": "2017-10-16T14:05:36Z",
+	"validToDate": "2019-10-16T14:05:36Z",
+	"isEnabled": true,
+	"isTrialPlan": false,
+	"trialPeriodDays": 30,
+	"nextStepPricePlan": "2bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"currency": "SEK",
+	"country": "SE",
+	"languageCode": "sv-SE",
+	"languageName": "Swedish",
+	"feeStartupAmount": 0,
+	"feeMonthlySubscriptionBaseAmount": 99.00,
+	"feeMonthlySubscriptionExtraPerBusinessUnitAmount": 15.00,
+	"feeMonthlySubscriptionExtraPerUserUnitAmount": 18.50,
+	"monthlySubscriptionTransactionsCounter": [
+	   {
+			"feeMonthlySubscriptionAmount": 10.00,
+			"transactionsCountUpTo": 100
+	   },
+	   {
+			"feeMonthlySubscriptionAmount": 20,
+			"transactionsCountUpTo": 200
+	   }
+   ],
+	"monthlySubscriptionActiveVouchersCounter": [
+	   {
+			"feeMonthlySubscriptionAmount": 10.00,
+			"vouchersCountUpTo": 100
+	   },
+	   {
+			"feeMonthlySubscriptionAmount": 20,
+			"vouchersCountUpTo": 200
+	   }
+   ],
+	"feePerTransactionPercent": 4.75,
+	"feePerTransactionAmount": 2.01,
+	"payoutForExpiredVouchersPercent": 80.00,
+	"vatPercent": 25.00,
+	"pspPricePlanID": "plan_DQeoMXfsJdxDvN",
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+    "docType": "merchantTransactions",
+    "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+    "transactionDate": "2018-05-12T00:00:000Z",
+    "transactions": [
+        {
+            "transactionID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+            "transactionDate": "2017-10-16T14:05:36Z",
+            "transactionStatus": "successful,failed,pending",
+            "transactionType": "neworder,settlement,payout,adjustment,refund",
+            "settlementTransactionID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+            "orderID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+            "amount": 1234567.98,
+            "currency": "VOC",
+            "merchantWalletAmountBeforeTransaction": 323423443.32,
+            "from": {
+                "merchantID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+                "walletID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6"
+            },
+            "to": {
+                "merchantID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+                "walletID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6"
+            }
+        },
+        {
+            "transactionID": "45658cfa-063d-4f5c-be5d-b90cfb64d1d6",
+            "transactionDate": "2017-10-16T14:05:36Z",
+            "transactionStatus": "successful,failed,pending",
+            "transactionType": "neworder,settlement,payout,adjustment,refund",
+            "settlementTransactionID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+            "orderID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+            "amount": 1234567.98,
+            "currency": "VOC",
+            "merchantWalletAmountBeforeTransaction": 323423443.32,
+            "from": {
+                "merchantID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+                "walletID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6"
+            },
+            "to": {
+                "merchantID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+                "walletID": "12358cfa-063d-4f5c-be5d-b90cfb64d1d6"
+            }
+        }
+    ],
+    "createdDate": "2017-10-16T14:05:36Z",
+    "updatedDate": "2017-10-16T15:18:12Z"
+}

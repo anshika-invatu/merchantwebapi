@@ -1,0 +1,48 @@
+{
+    "name": "merchantwebapi",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "azure-functions-pack": "funcpack pack -c ./",
+        "lint": "eslint .",
+        "test": "mocha --exit --no-timeouts -r ./test.options.js */*.spec.js",
+        "test:watch": "chokidar '**/*.spec.js' -c 'npm test'",
+        "test:debug": "mocha --inspect-brk=9230 --exit --no-timeouts -r ./test.options.js */*.spec.js",
+        "start:dev": "func host start -p 7076 -w node:debug=8076"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@bitbucket.org/vourity/consumerapi.git"
+    },
+    "keywords": [],
+    "author": "Mohit Singh",
+    "homepage": "https://bitbucket.org/vourity/merchantwebapi#readme",
+    "dependencies": {
+        "@azure/service-bus": "^7.5.1",
+        "@azure/storage-blob": "^12.9.0",
+        "arraybuffer-to-string": "^1.0.2",
+        "bcryptjs": "^2.4.3",
+        "bluebird": "3.5.1",
+        "country-code-lookup": "0.0.20",
+        "jwt-simple": "^0.5.6",
+        "moment": "2.22.1",
+        "randomstring": "^1.1.5",
+        "request": "^2.88.2",
+        "request-promise": "4.2.2",
+        "stripe": "^6.36.0",
+        "test": "^0.6.0",
+        "underscore": "^1.12.0",
+        "uuid": "3.2.1",
+        "validator": "^13.7.0",
+        "winston-loggly-bulk": "^2.0.3"
+    },
+    "devDependencies": {
+        "azure-functions-pack": "1.0.0",
+        "chai": "4.1.2",
+        "chai-as-promised": "7.1.1",
+        "chokidar-cli": "^1.2.3",
+        "dotenv": "5.0.1",
+        "eslint": "4.19.1",
+        "mocha": "^5.2.0"
+    }
+}

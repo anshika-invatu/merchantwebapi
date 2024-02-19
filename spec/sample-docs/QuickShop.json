@@ -1,0 +1,127 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "quickShop",
+	"partitionKey": "Same as the _id",
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"isEnabled": true,
+	"quickShopType": "static,dynamic",
+	"quickShopCode": "ABC-CDE-GHTE",
+	"validPeriod": {
+		"validFromDate": "2021-06-25T00:00:00Z",
+		"validToDate": "2024-10-16T23:59:59Z"
+	},
+	"quickShopName": "Some name",
+	"quickShopDescription": "Some description",
+	"productID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"productName": "Yellow product",
+	"productDescription": "Very good product",
+	"productImageURL": "http://media.vourity.com/logoburger.png",
+	"salesPrice": 123456789.00,
+	"vatPercent": 25.00,
+	"vatAmount": 100.00,
+	"currency": "SEK",
+	"vatClass": "VAT1",
+	"vatName": "VAT Tax 25%",
+	"webshopID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"webshopName": "Yellow product",
+	"dynamicAmountAllowed": false,
+	"issueVouchers": true,
+	"issueAccessTokens": true,
+	"templateAccessTokenID": "c825922e-6dd5-494c-b539-9325fdff937e",
+	"doPOSActions": false,
+	"doComponentActions": false,
+	"doCreateCustomer": true,
+	"posActions": [
+		{
+			"actionCode": "openDoor",
+			"actionName": "Open door",
+			"pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"pointofServiceName": "Main door"
+		},
+		{
+			"actionCode": "beep",
+			"actionName": "Beep the buzzer",
+			"pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"pointofServiceName": "Main door"
+		}
+	],
+	"componentActions": [
+		{
+			"actionCode": "openDoor",
+			"actionName": "Open door",
+			"componentID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"componentName": "Main door"
+		},
+		{
+			"actionCode": "beep",
+			"actionName": "Beep the buzzer",
+			"componentID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"componentName": "Main door"
+		}
+	],
+	"limits": {
+		"numberOfUsesTotal": 100,
+		"numberOfUsesLeft": 100
+	},
+	"paymentProviderAccounts": {
+		"swish": {
+			"paymentProviderAccountID": "451fdac7-2257-499c-b15f-05a7e8599466",
+			"paymentProviderAccountName": "Name of the account",
+			"pspLogoImageURL": "https://media.vourity.com/swish.png",
+			"publicPSPName": {
+				"sv-SE": {
+					"text": "Swish"
+				},
+				"en-US": {
+					"text": "Swish"
+				}
+			}
+		},
+		"creditcard": {
+			"paymentProviderAccountID": "451fdac7-2257-499c-b15f-05a7e8599466",
+			"paymentProviderAccountName": "Name of the account",
+			"pspLogoImageURL": "https://media.vourity.com/swish.png",
+			"publicPSPName": {
+				"sv-SE": {
+					"text": "Betalkort"
+				},
+				"en-US": {
+					"text": "Creditcard"
+				}
+			}
+		}
+	},
+	"rating": 4.6,
+	"totalRatingValue": 516,
+	"numberofRatings": 112,
+	"ratingDetails": {
+		"numberofRatings1": 64,
+		"numberofRatings2": 12,
+		"numberofRatings3": 78,
+		"numberofRatings4": 37,
+		"numberofRatings5": 562
+	},
+	"createdDate": "2021-06-25T14:05:36Z",
+	"updatedDate": "2021-06-25T15:18:12Z"
+}

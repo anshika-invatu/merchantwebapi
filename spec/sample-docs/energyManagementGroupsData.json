@@ -1,0 +1,19 @@
+{
+	"_id": "15958cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "energyManagementGroupsData",
+	"partitionKey": "3cc69cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"energyManagementGroupID": "3cc69cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"merchantID": "45669cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"powerLimit": 250.12,
+	"powerUnitCode": "kW",
+	"payload": {
+		"msgID": "b019ff83-f559-4dca-80df-cf90f165e9cd",
+		"msgType": "event",
+		"posID": "2f688561-18da-4723-8737-2f5de617ad91",
+		"authCode": "de0c1ad0-79bf-42b1-bfa2-04ccc1694706",
+		"DI1": false,
+		"DI2": false
+	},
+	"createdDate": "2022-07-16T14:05:36Z",
+	"updatedDate": "2022-07-16T15:18:12Z"
+}

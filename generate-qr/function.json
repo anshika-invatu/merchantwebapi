@@ -1,0 +1,17 @@
+{
+  "disabled": false,
+  "bindings": [{
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["POST"],
+      "route": "{apiVersion}/generate-qr"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}

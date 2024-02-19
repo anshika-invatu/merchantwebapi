@@ -1,0 +1,58 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "reportSubscribers",
+	"partitionKey": "Same as the _id",
+	"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"reportCode": "retailTransactions,posSessions,eventLog",
+	"fileFormat": "csv,pdf,json",
+	"isEnabled": true,
+	"reportSubscriberName": "Report to finance department",
+	"sendSchedule": {
+		"sendFrequency": "daily,weekly,monthly",
+		"timeOfDay": "03:15",
+		"dayOfWeek": "monday",
+		"dayOfMonth": 1
+	},
+	"deliveryMethods": [
+		{
+			"dmID": 1,
+			"contactMethodType": "ftp",
+			"isEnabled": true,
+			"endpointURL": "ftp://ftp.company.com/reportdata",
+			"auth": {
+				"username": "dsfsdfsdfsdfsdf",
+				"password": "dfsdfsdfdsfdsf"
+			}
+		},
+		{
+			"dmID": 2,
+			"contactMethodType": "email",
+			"isEnabled": true,
+			"email": "test.user@vourity.com",
+			"emailSubject": "This is a Vourity report"
+		},
+		{
+			"dmID": 3,
+			"contactMethodType": "webhook",
+			"isEnabled": true,
+			"endpointURL": "https://api.company.com/getdata",
+			"auth": {
+				"username": "dsfsdfsdfsdfsdf",
+				"password": "dfsdfsdfdsfdsf"
+			},
+			"sendHeaderParameters": [
+				{
+					"headerKey": "Referer",
+					"headerValue": "www.vourity.com"
+				},
+				{
+					"headerKey": "Content-Type",
+					"headerValue": "application/json"
+				}
+			]
+		}
+	],
+	"lastSentDate": "2023-11-15T14:05:36Z",
+	"createdDate": "2023-11-15T14:05:36Z",
+	"updatedDate": "2023-11-15T15:18:12Z"
+}

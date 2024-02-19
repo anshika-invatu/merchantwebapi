@@ -1,0 +1,37 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "timeSlots",
+	"partitionKey": "Same as the _id",
+	"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"merchantName": "Turistbutiken i Malmö",
+	"isEnabled": true,
+	"isBooked": false,
+	"resourceID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"resourceName": "html encode ??? This is the text in some language",
+	"resourceType": "EVSE",
+	"resourceTypeID": "73558cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"resourceTypeCode": "resource",
+	"resourceTypeIconURL": "https://vourityblob1.blob.core.windows.net/icons/icon_coffee.svg",
+	"resourceTypeName": {
+		"sv-SE": {
+			"text": "Produkt"
+		},
+		"en-US": {
+			"text": "resource"
+		}
+	},
+	"slotFromDate": "2021-03-04T08:00:00Z",
+	"slotToDate": "2021-03-04T09:00:00Z",
+	"slotDayOfWeek": "wednesday",
+	"totalNumberOfSeats": 5,
+	"availableSeats": 2,
+	"waitListSeats": 0,
+	"notes": [
+		{
+			"noteDate": "2021-03-02T14:05:36Z",
+			"noteText": "All is good"
+		}
+	],
+	"createdDate": "2021-03-02T14:05:36Z",
+	"updatedDate": "2021-03-02T15:18:12Z"
+}

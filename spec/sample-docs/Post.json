@@ -1,0 +1,43 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "post",
+	"partitionKey": "same as _id",
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"merchantName": "Vasamuseet",
+	"languageCode": "sv-SE",
+	"isPublished": true,
+	"isPublic": false,
+	"postSubject": "Vasamuseet",
+	"postSummaryText": "Vasamuseet",
+	"postBodyTextBase64": "Some base64 blob",
+	"mainImageURL": "some url",
+	"mainVideoURL": "some url",
+	"categories": [
+		"gift certificates",
+		"do good"
+	],
+	"tags": [
+		"home",
+		"green"
+	],
+	"rating": 4.6,
+	"totalRatingValue": 516,
+	"numberofRatings": 112,
+	"ratingDetails": {
+		"numberofRatings1": 64,
+		"numberofRatings2": 12,
+		"numberofRatings3": 78,
+		"numberofRatings4": 37,
+		"numberofRatings5": 562
+	},
+	"publishTo": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre"
+		}
+	],
+	"createdByUserID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"createdByUserName": "Mark Twain",
+	"createdDate": "2022-12-08T14:05:36Z",
+	"updatedDate": "2022-12-08T15:18:12Z"
+}

@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [ "PATCH" ],
+      "route": "{apiVersion}/merchants/{id}/dynamic-pricing-group/{dynamicPricingGroupID}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}

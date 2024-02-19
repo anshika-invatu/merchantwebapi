@@ -1,0 +1,47 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "actionRequestsTemplate",
+	"partitionKey": "Same as the _id",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"merchantName": "My company",
+	"templateName": "My first template",
+	"isEnabled": true,
+	"validTimeAfterRequest": 10,
+	"validTimeAfterRequestUnit": "minutes",
+	"usageCountTotalAllowed": 10,
+	"actions": [
+		{
+			"actionCode": "openDoor",
+			"actionName": "Open door",
+			"pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"pointofServiceName": "Main door"
+		},
+		{
+			"actionCode": "beep",
+			"actionName": "Beep the buzzer",
+			"pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			"pointofServiceName": "Main door"
+		}
+	],
+	"createdDate": "2021-06-17T14:05:36Z",
+	"updatedDate": "2021-06-17T15:18:12Z"
+}

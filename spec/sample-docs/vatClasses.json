@@ -1,0 +1,34 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "vatClasses",
+	 "partitionKey": "countryCode like SE or US etc",
+	 "countryCode": "SE",
+	 "vatClasses": [
+		{
+			 "vatClass": "SEVAT0",
+			 "vatName": "VAT Tax 0%",
+			 "vatDescription": "Moms 0%",
+			 "vatRate": 0
+		},
+		{
+			 "vatClass": "SEVAT1",
+			 "vatName": "VAT Tax 25%",
+			 "vatDescription": "Moms 25%",
+			 "vatRate": 25
+		},
+		{
+			 "vatClass": "SEVAT2",
+			 "vatName": "VAT Tax 12%",
+			 "vatDescription": "Moms 25%",
+			 "vatRate": 12
+		},
+		{
+			 "vatClass": "SEVAT3",
+			 "vatName": "VAT Tax 6%",
+			 "vatDescription": "Moms 6%",
+			 "vatRate": 6
+		}
+	],
+	 "createdDate": "2019-02-08T14:05:36Z",
+	 "updatedDate": "2019-02-08T15:18:12Z"
+}

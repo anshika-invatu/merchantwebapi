@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "authLevel": "anonymous",
+      "methods": [ "PATCH" ],
+      "route": "{apiVersion}/merchants/{id}/child-merchant/{childMerchantID}"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

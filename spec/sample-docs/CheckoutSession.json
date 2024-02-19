@@ -1,0 +1,40 @@
+{
+	 "_id": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "partitionKey": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "docType": "checkoutSession",
+	 "userSessionID": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "paymentProviderSessionID": "cs_test_9RsYyxFgSVGAbJIGKAClSJBnqe68gZxiWB0OgklHDeUptsM4sadE23s9",
+	 "paymentProvider": "Swish",
+	 "pspType": "swish",
+	 "customerEmail": "test@vourity.com",
+	 "receiverEmail": "hello@vourity.com",
+	 "receiverText": "Happy borthday",
+	 "receiverMobilePhone": "+46123466777",
+	 "totalAmountInclVat": 123456789.00,
+	 "currency": "SEK",
+	 "pointOfServiceID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "pointOfServiceName": "Kassa 1",
+	 "products": [
+		{
+			 "productID": "a29b2d6d-917a-4be8-b539-c006ef8dd861",
+			 "productName": "The blue product",
+			 "productDescription": "Some description of the Product",
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			},
+			 "quantity": 1.2,
+			 "pricePerUnit": 12334.45,
+			 "unitCode": "kWh",
+			 "amount": 11.23
+		}
+	],
+	 "discounts": [
+		{
+			 "discountCode": "ddsf3w3r",
+			 "discountName": "The blue product"
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T14:05:36Z"
+}

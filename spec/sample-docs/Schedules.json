@@ -1,0 +1,59 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "schedules",
+	 "partitionKey": "Same as the _id",
+	 "scheduleName": "Name of the schedule",
+	 "scheduleDescription": "Some description",
+	 "isRepeatSchedule": false,
+	 "repeatEvery": 1,
+	 "repeatInterval": "weeks",
+	 "priority": 1,
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "validPeriod": {
+		 "fromDate": "2019-10-16T00:00:00Z",
+		 "toDate": "2024-10-16T23:59:59Z"
+	},
+	 "validDaysOfWeek": {
+		 "monday": [
+			{
+				 "fromTime": "08:00:00",
+				 "toTime": "11:00:00"
+			},
+			{
+				 "fromTime": "14:00:00",
+				 "toTime": "20:00:00"
+			}
+		],
+		 "tuesday": [
+			{
+				 "fromTime": "08:00:00",
+				 "toTime": "17:00:00"
+			}
+		]
+	},
+	 "exceptions": [
+		{
+			 "exception": 1,
+			 "fromDate": "2020-12-16T00:00:00Z",
+			 "toDate": "2020-12-31T23:59:59Z"
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

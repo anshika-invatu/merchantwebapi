@@ -1,0 +1,113 @@
+{
+    "_id": "4a45ff15-eeeb-481f-9325-58a576a398ca",
+	"partitionKey": "4a45ff15-eeeb-481f-9325-58a576a398ca",
+    "docType": "components",
+    "pointOfServiceID": "e478878b-56f2-495a-ac45-9b3e5095ef76",
+    "merchantID": "ddc5e656-425e-4ab9-8b75-1053f8191af0",
+    "merchantName": "Merchant 33",
+    "componentName": {
+        "en-US": {
+            "text": "ABB S53 Connector A"
+        },
+        "sv-SE": {
+            "text": "ABB S53 Connector A"
+        }
+    },
+    "componentDescription": {
+        "en-US": {
+            "text": "S53 Connector A"
+        },
+        "sv-SE": {
+            "text": "ABB S53 Connector A"
+        }
+    },
+    "componentTypeID": "788022b8-1e92-424c-ba37-4a5f088fc6e2",
+    "componentTypeCode": "connector",
+    "componentTypeName": {
+        "sv-SE": {
+            "text": "Connector"
+        },
+        "en-US": {
+            "text": "Connector"
+        }
+    },
+    "parentComponentID": "",
+    "iconImageURL": "https://vourityblob1.blob.core.windows.net/icons/icon_ev_ccs_white.svg",
+    "alternateID": "",
+    "isWheelchairAccessible": false,
+    "isEnabledForSale": true,
+    "conditionCode": "clean",
+    "statusCode": "outOfService",
+    "tags": [],
+    "bin": {
+        "binID": "",
+        "propertyCode": "",
+        "minFillLevel": 0,
+        "maxFillLevel": 0,
+        "actualFillLevel": 0,
+        "actualFillLevelPercent": 0,
+        "fillLevelunit": "",
+        "orderMoreLowLimit": 0,
+        "targetFillLevel": 0,
+        "objectTypeCode": "",
+        "objectID": "",
+        "bestBeforeDate": "",
+        "volume": 0,
+        "volumeUnit": "",
+        "width": 0,
+        "widthUnit": "",
+        "length": 0,
+        "lengthUnit": "",
+        "depth": 0,
+        "depthUnit": "",
+        "weightLimit": 0,
+        "weightLimitUnit": "",
+        "isHeatedStorage": false,
+        "isColdStorage": false,
+        "isFreezeStorage": false,
+        "isWheelchairAccessible": false,
+        "lastFillDate": ""
+    },
+    "evse": {
+        "evseNumber": 1,
+        "evseID": ""
+    },
+    "connector": {
+        "connectorNumber": 1,
+        "connectorTypeCode": "type2",
+        "connectorFormatCode": "cable",
+        "powerTypeCode": "AC_1_PHASE",
+        "maxVoltage": "230",
+        "maxCurrent": "10",
+        "maxElectricPowerKw": "11"
+    },
+    "defaultProduct": {
+        "productID": "98b371d5-88e6-477b-85b4-1350ec0b0a59",
+        "productName": "Electric Vehicle Charging"
+    },
+    "publicPriceInfo": "3 SEK per kWh",
+    "statusReason": "Charging Station is Offline",
+    "statusUpdatedDate": "2022-05-30T15:45:00.578Z",
+    "pointOfServiceName": "EV Charger S53 ABB",
+    "useAsDefaultSmartChargingProfile": false,
+    "smartChargingProfileID": "",
+    "smartChargingProfileName": "",
+    "siteID": "da1c2b81-5e7d-4e52-8487-c5939816c556",
+    "siteName": "Stockholm Office",
+    "zoneID": "cbd3438b-f1f0-4393-901e-430d8d905e17",
+    "zoneName": "Zone 1",
+    "location": [{
+        "streetRow1": "",
+        "streetRow2": "",
+        "zip": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "contactEmail": "",
+        "contactPhone": "",
+        "locationText": "",
+        "latitude": "",
+        "longitude": ""
+    }],
+    "publicInfo": ""
+}

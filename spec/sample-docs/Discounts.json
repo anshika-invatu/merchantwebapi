@@ -1,0 +1,76 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "discounts",
+	 "partitionKey": "Same as the _id",
+	 "merchantID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "merchantName": "My company",
+	 "discountName": "Summer deal",
+	 "discountDescription": "Very good deal during the summer",
+	 "discountType": "freeShipping,percentage,fixedAmount,buyXGetY",
+	 "discountAppliesTo": "entirePurchase,productLimits,productCategoryLimits",
+	 "discountMode": "automatic,manual",
+	 "currency": "SEK",
+	 "discountCode": "XGG-363F-VSW",
+	 "discountAmount": 5,
+	 "discountPercentage": 10,
+	 "isEnabled": true,
+	 "validPeriod": {
+		 "fromDate": "2019-10-16T00:00:00Z",
+		 "toDate": "2024-10-16T23:59:59Z"
+	},
+	 "totalNumberOfRedemptions": 100,
+	 "totalNumberOfRedemptionsLeft": 95,
+	 "numberOfRedemptionsPerCustomer": 1,
+	 "productLimits": [
+		{
+			 "productID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "productName": "Fanta 33cl"
+		}
+	],
+	 "productCategoryLimits": [
+		{
+			 "productID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "productCategoryName": "Soda drinks"
+		}
+	],
+	 "rules": {
+		 "minimumPurchaseAmount": 100,
+		 "minimumNumberOfProducts": 5
+	},
+	 "buyXAnyItems": [
+		{
+			 "buyType": "product",
+			 "productID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "productName": "Fanta 33cl",
+			 "quantity": 2
+		},
+		{
+			 "buyType": "productCategory",
+			 "productCategoryID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "productCategoryName": "Soda drinks",
+			 "quantity": 2
+		}
+	],
+	 "getYAnyItems": [
+		{
+			 "buyType": "product",
+			 "productID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "productName": "Fanta 33cl",
+			 "quantity": 2,
+			 "discountType": "free,percentage,fixedAmount",
+			 "discountAmount": 5,
+			 "discountPercentage": 10
+		},
+		{
+			 "buyType": "productCategory",
+			 "productCategoryID": "67858cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "productCategoryName": "Soda drinks",
+			 "quantity": 2,
+			 "discountType": "free,percentage,fixedAmount",
+			 "discountAmount": 5,
+			 "discountPercentage": 10
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

@@ -1,0 +1,18 @@
+{
+  "bindings": [
+      {
+          "name": "req",
+          "type": "httpTrigger",
+          "direction": "in",
+          "authLevel": "anonymous",
+          "methods": [ "PATCH" ],
+          "route": "{apiVersion}/merchants/{id}/timeslots/{timeslotID}"
+      },
+      {
+          "name": "res",
+          "type": "http",
+          "direction": "out"
+      }
+  ],
+  "disabled": false
+}

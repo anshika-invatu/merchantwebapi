@@ -1,0 +1,116 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "accessToken",
+	 "partitionKey": "Same as the _id",
+	 "accessTokenType": "rfid,pincode,licenseplate,qr,biometric,url",
+	 "accessTokenName": "Name of the token",
+	 "accessTokenDescription": "Some description",
+	 "accessURL": "Some link",
+	 "accessWebHook": "Some API endpoint URL",
+	 "isEnabled": true,
+	 "isLocked": false,
+	 "isLockedReason": "Too many failed access attempts",
+	 "accessToken": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+	 "accessTokenPincode": "$3b$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+	 "walletID": "34558cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "issuedByMerchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "partnerNetworkID": "758bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "accessRoleCode": "staff,member,partner,paid,onetime",
+	 "accessRoleName": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "This is the text in some language"
+		}
+	},
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "contact": {
+		 "countryCode": "SE",
+		 "languageCode": "sv-SE",
+		 "mobilePhone": "+461234567890",
+		 "email": "test@vourity.com",
+		 "isVerifiedEmail": true,
+		 "isverifiedMobilePhone": true,
+		 "imageURL": "http://media.vourity.com/theimage.png",
+		 "idProviderCode": "iloq",
+		 "idProviderName": "iLoq"
+	},
+	 "validPeriod": {
+		 "validFromDate": "2019-10-16T00:00:00Z",
+		 "validToDate": "2024-10-16T23:59:59Z"
+	},
+	 "customerAgreementID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+	 "customerAgreementName": "My agreement",
+	 "customerAccountID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+	 "customerAccountName": "My account",
+	 "pincodeRules": {
+		 "monday": [
+			{
+				 "fromTime": "08:00:00",
+				 "toTime": "11:00:00"
+			},
+			{
+				 "fromTime": "14:00:00",
+				 "toTime": "20:00:00"
+			}
+		],
+		 "tuesday": [
+			{
+				 "fromTime": "08:00:00",
+				 "toTime": "17:00:00"
+			}
+		]
+	},
+	 "isAccessCountUnlimited": false,
+	 "accessCountTotalAllowed": 10,
+	 "accessCountLeft": 1,
+	 "2FactorRules": {
+		 "is2FactorAuthRequired": true,
+		 "sendViaEmail": true,
+		 "sendViaSMS": false
+	},
+	 "accessRights": {
+		 "accessGroups": {
+			 "474b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "accessGroupName": "Group 1"
+			},
+			 "574b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "accessGroupName": "Group 2"
+			}
+		},
+		 "pointOfServices": {
+			 "752b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "pointOfServiceName": "POS at rental site A",
+				 "components": [
+					{
+						 "componentID": "631b917c-9971-4ec4-89b5-0ab80f2607ae",
+						 "componentName": "Bin 203"
+					},
+					{
+						 "componentID": "631b917c-9971-4ec4-89b5-0ab80f2607ae",
+						 "componentName": "Bin 203"
+					}
+				]
+			}
+		}
+	},
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

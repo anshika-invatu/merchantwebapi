@@ -1,0 +1,48 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "productGroups",
+	 "partitionKey": "Same as the _id",
+	 "posGroupName": "Name of the group",
+	 "posGroupDescription": "Some description",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "products": [
+		{
+			 "productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			 "productName": "The blue product",
+			 "productDescription": "Some description of the Product",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			}
+		},
+		{
+			 "productID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "productName": "The green product",
+			 "productDescription": "Some description of the Product",
+			 "imageURL": "https://media.vourity.com/greenburger.png",
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			}
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

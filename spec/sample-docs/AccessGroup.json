@@ -1,0 +1,130 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "accessGroups",
+	 "partitionKey": "Same as the _id",
+	 "accessGroupName": "Name of the group",
+	 "accessGroupDescription": "Some description",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		},
+		{
+			 "partnerNetworkID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "partnerNetworkName": "My partner network D",
+			 "roles": "write"
+		}
+	],
+	 "validPeriod": {
+		 "validFromDate": "2019-10-16T00:00:00Z",
+		 "validToDate": "2024-10-16T23:59:59Z"
+	},
+	 "pincodeRules": {
+		 "monday": [
+			{
+				 "fromTime": "08:00:00",
+				 "toTime": "11:00:00"
+			},
+			{
+				 "fromTime": "14:00:00",
+				 "toTime": "20:00:00"
+			}
+		],
+		 "tuesday": [
+			{
+				 "fromTime": "08:00:00",
+				 "toTime": "17:00:00"
+			}
+		]
+	},
+	 "accessRights": {
+		 "sites": {
+			 "474b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "siteName": "Stockholm Office",
+				 "rules": {
+				},
+				 "zones": {
+				}
+			},
+			 "368b917c-9971-4ec4-89b5-0ab80f2607ae": {
+				 "siteName": "Stockholm Office",
+				 "rules": {
+				},
+				 "schedules": [
+					{
+						 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+						 "scheduleName": "Office hours",
+						 "priority": 2
+					},
+					{
+						 "scheduleID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+						 "scheduleName": "Christmas",
+						 "priority": 1
+					}
+				],
+				 "zones": {
+					 "875b917c-9971-4ec4-89b5-0ab80f2607ae": {
+						 "zoneName": "Zone Upper floor",
+						 "rules": {
+						},
+						 "schedules": [
+							{
+								 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+								 "scheduleName": "Office hours",
+								 "priority": 2
+							},
+							{
+								 "scheduleID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+								 "scheduleName": "Christmas",
+								 "priority": 1
+							}
+						]
+					},
+					 "638b917c-9971-4ec4-89b5-0ab80f2607ae": {
+						 "zoneName": "Zone Loading bay back side",
+						 "rules": {
+						},
+						 "schedules": [
+							{
+								 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+								 "scheduleName": "Office hours",
+								 "priority": 2
+							},
+							{
+								 "scheduleID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+								 "scheduleName": "Christmas",
+								 "priority": 1
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	 "accessActions": [
+		{
+			 "actionCode": "openDoor2",
+			 "actionName": "Open door number 2",
+			 "actionParameters": {
+				 "timerSeconds": {
+					 "name": "Timer value in seconds",
+					 "type": "decimal",
+					 "value": 5
+				}
+			}
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}

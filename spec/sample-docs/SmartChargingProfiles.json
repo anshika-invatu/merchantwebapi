@@ -1,0 +1,51 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "smartChargingProfiles",
+	"partitionKey": "Same as the _id",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"isEnabled": true,
+	"parentSmartChargingProfileID": "24b58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"merchantID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"merchantName": "Test company",
+	"chargingProfileName": "Standard charging profile",
+	"chargingProfileDescription": "Some description",
+	"chargingProfile": {
+		"id": 1,
+		"stackLevel": 1,
+		"chargingProfilePurpose": "ChargingStationMaxProfile,TxProfile,TxDefaultProfile,ChargingStationExternalConstraints",
+		"chargingProfileKind": "Absolute,Recurring,Relative",
+		"validFrom": "2021-01-01T00:00:00Z",
+		"validTo": "2022-01-01T00:00:00Z",
+		"chargingSchedule": {
+			"startSchedule": "2021-12-25T00:00:00Z",
+			"duration": 86400,
+			"chargingRateUnit": "W,A",
+			"minChargingRate": 1.2,
+			"chargingSchedulePeriod": [
+				{
+					"startPeriod": 0,
+					"limit": 999999.9,
+					"numberPhases": 3
+				}
+			]
+		}
+	},
+	"createdDate": "2021-11-14T14:05:36Z",
+	"updatedDate": "2021-11-14T15:18:12Z"
+}

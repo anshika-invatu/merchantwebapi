@@ -1,0 +1,95 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "energyManagementGroups",
+	"partitionKey": "Same as _id",
+	"adminRights": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"roles": "admin"
+		},
+		{
+			"merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"roles": "read"
+		},
+		{
+			"merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "My company A",
+			"roles": "write"
+		}
+	],
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"merchantName": "Turistbutiken i Åre",
+	"parentEnergyManagementGroupID": "33358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"isEnabled": true,
+	"energyManagementGroupName": "Energy group 1",
+	"energyManagementGroupDescription": "This is for this building",
+	"iconImageURL": "https://media.vourity.com/blueburger1.png",
+	"siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"siteName": "Stockholm Office",
+	"zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"zoneName": "Zone Upper floor",
+	"location": [
+		{
+			"streetRow1": "Mega street 5",
+			"streetRow2": "Mega street 5",
+			"zip": "12233JJHH",
+			"city": "Stockholm",
+			"state": "NYC",
+			"country": "Sweden",
+			"contactEmail": "test.user@vourity.com",
+			"contactPhone": "+46701234567890",
+			"locationText": "Floor 1",
+			"latitude": -78.75,
+			"longitude": 20.412345
+		}
+	],
+	"timeZone": "CET",
+	"linkedPOS": [
+		{
+			"pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"pointofServiceName": "Main door",
+			"energyDeviceType": "evcharger,solar,battery,heatpump,heating,energymeter,energygrid,fuelcell",
+			"isConsumer": true,
+			"isProducer": false,
+			"priority": 1,
+			"smartChargingProfileID": "1a83b028-cfb3-4ced-8f36-0aa50f5fde22",
+			"smartChargingProfileName": "The charging profile name"
+		},
+		{
+			"pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"pointofServiceName": "Main door",
+			"energyDeviceType": "evcharger,solar,battery,heatpump,energymeter",
+			"isConsumer": true,
+			"isProducer": false,
+			"priority": 2,
+			"smartChargingProfileID": "1a83b028-cfb3-4ced-8f36-0aa50f5fde22",
+			"smartChargingProfileName": "The charging profile name"
+		}
+	],
+	"statusCode": "available",
+	"statusReason": "Charging ended",
+	"statusUpdatedDate": "2022-04-14T15:18:12Z",
+	"integrations": {
+		"frejaStandard": {
+			"integrationID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			"integrationName": "The integration name",
+			"integrationIconURL": "https://media.vourity.com/product.svg",
+			"energyDeviceType": "evcharger,solar,battery,heatpump,heating,energymeter,energygrid"
+		},
+		"vattenfallFlexgrid": {
+			"integrationID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			"integrationName": "The integration name",
+			"integrationIconURL": "https://media.vourity.com/product.svg",
+			"energyDeviceType": "energygrid"
+		}
+	},
+	"powerLimit": 250.12,
+	"powerLimitLatest": 17,
+	"powerMargin": 15.34,
+	"powerValueLatest": 125,
+	"powerUnitCode": "kW",
+	"createdDate": "2022-08-08T14:05:36Z",
+	"updatedDate": "2022-08-08T15:18:12Z"
+}
